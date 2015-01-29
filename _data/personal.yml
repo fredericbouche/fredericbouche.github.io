@@ -14,12 +14,17 @@ department: >
   Department of Life Sciences
   
 
-institution: University of Liège [ULg]
+group: Phytosystems
+lab: Laboratory of Plant Physiology
+institution: University of Liège
 
 
-mailing_address: >
-  Boulevard du Rectorat 27, B22, 
-  B4000 Liège  Belgium
+mailing_address_1: >
+  Boulevard du Rectorat 27 | B22
+mailing_address_2: >
+  B4000 Liège | Belgium
+mailing_address_3: >
+    
 
   
 profiles:

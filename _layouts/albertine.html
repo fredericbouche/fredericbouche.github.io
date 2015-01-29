@@ -60,7 +60,7 @@ It is threatened by habitat loss.
             {{ site.data.personal.label }}
           </h2>
         </div>
-        <div class="col-xs-3 col-lg-4" style="margin-top:+40px;>
+        <div class="col-xs-3 col-lg-4" style="margin-top:+30px;>
           <a href="#test" ></a>
           <a font color="red" href="#projects">Projects</a> |
           <a  href="#publications">Publications</a> |
@@ -96,7 +96,7 @@ It is threatened by habitat loss.
     <div class="row">
       <section class="col-md-8" style="margin-top:-40px";>
         {% if site.data.personal.intro.title %}
-          <h3 style="font-size:25px">
+          <h3 style="font-size:24px">
             {{ site.data.personal.intro.title }}
           </h3>
         {% else %}
@@ -105,9 +105,13 @@ It is threatened by habitat loss.
           </h3>
         {% endif %}
 
-        <div class="lead" align="justify" style="font-size:20px">
+        <div class="lead" align="justify" style="font-size:18px">
           {{ site.data.personal.intro.body | markdownify }}
         </div>
+        
+        <p>
+
+        </p>
         
         <div class=""  style="margin-top:+20px; text-align:center">
        		 <img src="{{ site.baseurl }}{{ site.data.personal.banner }}" 
@@ -122,11 +126,18 @@ It is threatened by habitat loss.
         <p>
           <a href="mailto:{{ site.data.personal.email  }}">{{ site.data.personal.email  }}</a>
         </p>
-        <p>
-          {{ site.data.personal.department }}<br>
+
+          {{ site.data.personal.group }}<br>
+          {{ site.data.personal.lab }}<br>
           {{ site.data.personal.institution }}<br>
-          {{ site.data.personal.mailing_address | replace:'\n','<br>' }}
+
+          {{ site.data.personal.mailing_address_1 }}<br>
+          {{ site.data.personal.mailing_address_2}}<br>
+        
+        <p>
+
         </p>
+
 
         <p>
           {% for profile in site.data.personal.profiles %}
@@ -176,7 +187,7 @@ It is threatened by habitat loss.
                     col-lg-2">
           <p>
             <img src="{{ site.baseurl }}{{ project.image }}" 
-                 class="img-responsive img-thumbnail" 
+                 class="img-responsive" 
                  style="width:100%; border:0px; margin-top:+20px">
           </p>
         </div>
