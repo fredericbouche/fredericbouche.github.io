@@ -1,6 +1,6 @@
 name: Frédéric Bouché
 
-label: Plant Molecular Biologist
+label: Plant Molecular Biologist | PhD student | University of Liège
 
 picture: /img/profile-picture.jpg
 
@@ -9,8 +9,8 @@ email: f.bouche@ulg.ac.be
 phone: +32.4.366.38.37
 
 department: >
-  Phystosystems   /          
-  Laboratory of Plant Physiology /      
+  Phystosystems |          
+  Laboratory of Plant Physiology |      
   Department of Life Sciences
   
 
@@ -33,12 +33,12 @@ profiles:
     url: http://www.researchgate.net/profile/Frederic_Bouche
   -
     network: Twitter
-    username: 
-    url: https://twitter.com/ianli/ 
+    username: Frederic_Bouche
+    url: https://twitter.com/Frederic_Bouche
 
   -
     network: Impact Story
-    username:
+    username: 
     url: http://www.impactstory.org/FredericBouche
 
 
