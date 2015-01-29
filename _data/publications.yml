@@ -30,7 +30,7 @@
   issue: 3
   year: 2013
   month: August
-  # pdf: 
+  pdf: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
   url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
   
 -
@@ -44,3 +44,61 @@
   month: March
   #pdf: 
   url: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract
+
+-
+  type: Poster
+  title: Flowering Goes Underground.
+  authors: Bouché F., Lobet G., D’Aloia M., Detry N., Tocquin P., & Périlleux C. 
+  journal: The Bioforum 2014 of BioLiège, Liège [Belgium]
+  volume:
+  issue:
+  year: 2014
+  month: May
+  #pdf:
+  #url: 
+ 
+
+-
+  type: Poster
+  title: The hidden half of flowering.
+  authors: Bouché F., Mistiaen K., D’Aloia M., Detry N., Tocquin P., & Périlleux C. 
+  journal: Workshop on Molecular Mechanisms controlling flower development, Presqu'île de Giens [France]
+  volume:
+  issue:
+  year: 2013
+  month: June
+  #pdf:
+  #url: 
+-
+  type: Poster
+  title: Molecular analysis of root medium impact on Arabidopsis thaliana development.
+  authors: Bouché F., André J., Tocquin P., & Périlleux C. 
+  journal: The Bioforum 2013 of BioLiège, Liège [Belgium]
+  volume:
+  issue:
+  year: 2013
+  month: May
+  #pdf:
+  #url: 
+-
+  type: Poster
+  title: A cytokinin route to flowering in Arabidopsis. 
+  authors: Bouché F., André J., D’Aloia M., Bonhomme D., & Périlleux C. 
+  journal: Workshop on Molecular Mechanisms controlling flower development, Maratea [Italy]
+  volume:
+  issue:
+  year: 2011  
+  month: June
+  #pdf:
+  
+  
+- 
+    type: Award
+    title : Best Plant Biotechnology poster at the BioLiège Bioforum 2014.
+    year : 2014
+    journal: Prize awarded for the poster “Flowering Goes Underground”. 
+    month: May
+
+
+
+  

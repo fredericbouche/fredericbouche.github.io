@@ -3,7 +3,7 @@ name: Frédéric Bouché
 label: Plant Molecular Biologist | PhD student | University of Liège
 
 picture: /img/profile-picture.jpg
-
+banner:  /img/banner_flo-02.png
 email: f.bouche@ulg.ac.be
 
 phone: +32.4.366.38.37
@@ -14,7 +14,7 @@ department: >
   Department of Life Sciences
   
 
-institution: University of Liège
+institution: University of Liège [ULg]
 
 
 mailing_address: >
@@ -47,6 +47,6 @@ profiles:
 intro:
   title: Welcome!
   body: >
-    I'm a plant molecular biologist at the University of Liège. I'm currently finishing my PhD thesis in the [laboratory of Pr. Périlleux](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology), at the [University of Liège](www.ulg.ac.be).
+    I'm a plant molecular biologist at the [University of Liège](www.ulg.ac.be), in [Belgium](http://bit.ly/1y8KNuU). I'm currently finishing my PhD thesis in the [laboratory of Pr. Périlleux](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology).
     I'm interested in the molecular mechanisms that control the regulation of flowering time in Arabidopsis thaliana. The aim of my work is to obtain an integrated overview of the flowering time control at the whole plant level by combining multi-disciplinary approaches, including high throughput transcriptomics, dataset analysis, phenotying and physiological experiments.  
     
