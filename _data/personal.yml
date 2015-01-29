@@ -4,41 +4,49 @@ label: Plant Molecular Biologist
 
 picture: /img/profile-picture.jpg
 
-email: ianli@ianli.com
+email: f.bouche@ulg.ac.be
 
-phone: 
+phone: +32.4.366.38.37
 
-department: Android UX
+department: >
+  Phystosystems   /          
+  Laboratory of Plant Physiology /      
+  Department of Life Sciences
+  
 
-institution: Google
+institution: University of Liège
+
 
 mailing_address: >
-  1600 Amphitheatre Parkway
-  Mountain View, CA 94043
+  Boulevard du Rectorat 27, B22, 
+  B4000 Liège  Belgium
 
+  
 profiles:
   - 
     network: Google Scholar
     username:
-    url: http://scholar.google.com/citations?user=JS7sVyQAAAAJ&hl=en
+    url: https://scholar.google.be/citations?user=2f2gIcAAAAAJ&hl=en
   -
-    network: LinkedIn
+    network: ResearchGate
     username:
-    url: https://www.linkedin.com/pub/ian-li/1/681/8b0
+    url: http://www.researchgate.net/profile/Frederic_Bouche
   -
     network: Twitter
-    username: ianli
-    url: https://twitter.com/ianli/
+    username: 
+    url: https://twitter.com/ianli/ 
+
+  -
+    network: Impact Story
+    username:
+    url: http://www.impactstory.org/FredericBouche
+
+
+
 
 intro:
-  title: Hello!
+  title: Welcome!
   body: >
-    I'm a UI designer at Google.
-    Before Google, I was a Ph.D. student in the 
-    [Human-Computer Interaction Institute](http://hcii.cs.cmu.edu/) at Carnegie Mellon University.
-    My advisors were 
-    [Anind Dey](http://www.cs.cmu.edu/~anind/) and 
-    [Jodi Forlizzi](http://goodgestreet.com/). 
-    I worked on designed and developed 
-    [personal informatics tools](http://www.personalinformatics.org/) that help people better understand their own behavior.
-    [My dissertation](http://ianli.com/thesis/) explored how contextual information can improve self-knowledge in personal informatics systems.
+    I'm a plant molecular biologist at the University of Liège. I'm currently finishing my PhD thesis in the [laboratory of Pr. Périlleux](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology), at the [University of Liège](www.ulg.ac.be).
+    I'm interested in the molecular mechanisms that control the regulation of flowering time in Arabidopsis thaliana. The aim of my work is to obtain an integrated overview of the flowering time control at the whole plant level by combining multi-disciplinary approaches, including high throughput transcriptomics, dataset analysis, phenotying and physiological experiments.  
+    

@@ -2,4 +2,7 @@
 markdown: kramdown
 
 # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: http://fredericbouche.github.io
+
+baseurl: /fredericbouche.github.io
+
+# baseurl: http://fredericbouche.github.io

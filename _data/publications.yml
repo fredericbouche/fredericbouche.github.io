@@ -1,66 +1,46 @@
 -
   type: journal
-  title: Using context to reveal factors that affect physical activity
-  authors: Ian Li, Anind K. Dey, Jodi Forlizzi
-  journal: ACM Transactions on Computer Human Interaction
-  volume: 19 
-  issue: 1
-  year: 2012
+  title:  Extracellular peptidase hunting for improvement of protein production in plant cells and roots
+  authors: Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C. & Tocquin P.
+  journal: Frontiers in Plant Science
+  volume: In Press
+  issue: NA
+  year: 2015
+  month: 
+  #pdf: 
+  url: http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract
+-
+  type: journal
+  title:  Heat can erase epigenetic marks of vernalization in Arabidopsis
+  authors: Bouché F. , Detry N. & Périlleux C. 
+  journal: Plant Signalling and Behavior
+  volume: In press
+  issue: NA
+  year: 2014
+  month: 
+  #pdf: 
+  #url: 
+  
+-
+  type: journal
+  title:  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses.
+  authors: Périlleux C., Pieltain A., Jacquemin G., Bouché F., Detry N., D’Aloia M., Thiry L., Aljochim P., Delansnay M., Mathieu A.-S., Lutts S. & Tocquin P.
+  journal: The Plant Journal
+  volume: 75 
+  issue: 3
+  year: 2013
+  month: August
+  # pdf: 
+  url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
+  
+-
+  type: journal
+  title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF. 
+  authors: D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G. & Périlleux C. 
+  journal: The plant journal
+  volume: 65
+  issue: 6
+  year: 2011
   month: March
-  pdf: http://www.personalinformatics.org/docs/papers/2012-ianli-tochi-physical-activity.pdf
-  url: http://dl.acm.org/citation.cfm?id=2147783.2147790
--
-  type: dissertation
-  title: "Personal Informatics and Context: Using Context to Reveal Factors that Affect Behavior"
-  authors: Ian Li
-  year: 2011
-  publisher: Carnegie Mellon University
-  pdf: http://ianli.com/thesis/docs/dissertation.pdf
-  url: http://dl.acm.org/citation.cfm?id=2520311
--
-  type: conference
-  title: "Understanding My Data, Myself: Supporting Self-Reflection with Ubicomp Technologies"
-  authors: Ian Li, Anind Dey, Jodi Forlizzi
-  conference: Proceedings of UbiComp 2011
-  year: 2011
-  pages: 405-414
-  pdf: http://ianli.com/publications/2011-ianli-ubicomp-understanding-my-data.pdf
-  url: http://dl.acm.org/citation.cfm?id=2030166
--
-  type: conference
-  title: A stage-based model of personal informatics systems
-  authors: Ian Li, Anind Dey, Jodi Forlizzi
-  year: 2010
-  conference: Proceedings of CHI 2010
-  pages: 557-566
-  pdf: http://ianli.com/publications/2010-ianli-chi-stage-based-model.pdf
-  url: http://dl.acm.org/citation.cfm?id=1753326.1753409
-- 
-  type: conference
-  title: "Here's What I Did: Sharing and Reusing Web Activity with ActionShot"
-  authors: Ian Li, Jeffrey Nichols, Tessa Lau, Clemens Drews, Allen Cypher
-  conference: Proceedings of CHI 2010
-  year: 2010
-  pages: 723-732
-  pdf: http://ianli.com/publications/2010-ianli-chi-actionshot.pdf
-  url: http://dl.acm.org/citation.cfm?id=1753326.1753432
--
-  type: magazine
-  title: "Grafitter: leveraging social media for self reflection"
-  authors: Ian Li, Anind Dey, Jodi Forlizzi
-  magazine: Crossroads
-  volume: 16
-  issue: 2
-  year: 2009
-  pages: 12-13
-  url: http://dl.acm.org/citation.cfm?id=1665997.1666001
-  pdf: http://ianli.com/publications/2009-ianli-crossroads-grafitter.pdf
--
-  type: conference
-  title: Using Visualizations to Increase Compliance in Experience Sampling
-  authors: Gary Hsieh, Ian Li, Anind Dey, Jodi Forlizzi, Scott Hudson
-  conference: Proceedings of UbiComp 2008
-  year: 2008
-  pages: 164-167
-  pdf: http://ianli.com/publications/2008-hsieh-ubicomp-using-visualizations.pdf
-  url: http://portal.acm.org/citation.cfm?id=1409635.1409657
+  #pdf: 
+  url: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract
