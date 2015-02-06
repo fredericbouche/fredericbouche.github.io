@@ -65,7 +65,7 @@ It is threatened by habitat loss.
           <a font color="red" href="#projects">Projects</a> |
           <a  href="#publications">Publications</a> |
           <a  href="#presentations">Presentations </a> |
-          <a  href="#Miscellaneous">Misc</a> 
+          <a  href="#miscellaneous">Misc</a> 
                 </div>
 
         
@@ -153,6 +153,11 @@ It is threatened by habitat loss.
 
             {% elsif profile.network == 'Twitter' %}
               <i class="fa fa-twitter-square"></i>
+			
+			{% elsif profile.network == 'Download CV' %}
+              <i class="fa fa-arrow-circle-down"></i>
+
+
 
             {% endif %}
             <a href="{{ profile.url }}">
@@ -347,6 +352,111 @@ It is threatened by habitat loss.
   </section>
   {% endif %}
 
+
+  <!-- ==================== -->
+  <!-- MISCELLANEOUS -->
+  <!-- ==================== -->
+
+
+<div class="container" id="miscellaneous">
+    <div class="row">
+      <section class="col-md-10">
+
+        <h3>Miscellaneous</h3>
+        
+<!-------------------------------->
+        <h4> Education </h4>
+
+        {% for miscellaneous in site.data.miscellaneous %}
+          <p>
+            {% case miscellaneous.type %}
+              {% when 'Education' %}
+            	<b>
+              	{% if miscellaneous.url  %}
+                <a href="{{ miscellaneous.url }}">
+                  {{ miscellaneous.title }}
+                </a>
+               <small>
+              | {{ miscellaneous.subtitle }}
+              </small>
+                
+                <small>
+              | {{ miscellaneous.years }}
+              </small>
+
+              {% else %}
+                {{ miscellaneous.title }}
+                
+                <small>
+              | {{ miscellaneous.subtitle }}
+              </small>
+                
+                <small>
+              | {{ miscellaneous.years }}
+              </small>
+                
+
+              {% endif %}
+            	</b>
+            {% endcase %}
+          </p>
+        {% endfor %}
+        
+        
+        
+<!-------------------------------->
+        <h4> Work </h4>
+
+        {% for miscellaneous in site.data.miscellaneous %}
+          <p>
+            {% case miscellaneous.type %}
+              {% when 'Work' %}
+            	<b>
+              	{% if miscellaneous.url  %}
+                <a href="{{ miscellaneous.url }}">
+                 {{ miscellaneous.title }}
+                </a>
+              {% else %}
+                {{ miscellaneous.title }}
+              {% endif %}
+            	</b>
+            {% endcase %}
+          </p>
+        {% endfor %}
+    
+<!-------------------------------->
+        <h4> Personal </h4>
+
+        {% for miscellaneous in site.data.miscellaneous %}
+          <p>
+            {% case miscellaneous.type %}
+              {% when 'Personal' %}
+            	<b>
+              	{% if miscellaneous.url  %}
+                <a href="{{ miscellaneous.url }}">
+                  {{ miscellaneous.title }}
+                </a>
+              {% else %}
+                {{ miscellaneous.title}}
+              {% endif %}
+            	</b>
+            	
+            {% endcase %}
+          </p>
+        {% endfor %}
+        
+
+      </section>     
+    </div>
+  </div>
+
+
+
+
+
+
+
+
   <!-- ==================== -->
   <!-- FOOTER -->
   <!-- ==================== -->
@@ -392,10 +502,11 @@ It is threatened by habitat loss.
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        var customoffset = 75
         if (target.length) {
           $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
+            scrollTop: target.offset().top - customoffset
+          }, 800);
           return false;
         }
       }
