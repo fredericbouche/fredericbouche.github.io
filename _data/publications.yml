@@ -6,7 +6,7 @@
   volume: In press
   #issue: NA
   year: 2015
-  #month: 
+  month: 
   pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf+html
   url: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054
 -
@@ -15,9 +15,9 @@
   authors: Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C., & Tocquin P.
   journal: Frontiers in Plant Science
   volume: 6
-  #issue: NA
+  issue:
   year: 2015
-  #month: 
+  month: 
   #pdf: 
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract
 -
@@ -28,7 +28,7 @@
   volume: 10
   issue: 3
   year: 2015
-  #month: 
+  month: 
   pdf: http://www.tandfonline.com/doi/pdf/10.4161/15592324.2014.990799
   url: http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799
   
@@ -73,7 +73,7 @@
   type: Poster
   title: The hidden half of flowering.
   authors: Bouché F., Mistiaen K., D’Aloia M., Detry N., Tocquin P., & Périlleux C. 
-  journal: Workshop on Molecular Mechanisms controlling flower development, Presqu'île de Giens [France]
+  journal: Workshop on Molecular Mechanisms controlling flower development, Giens [France]
   volume:
   issue:
   year: 2013
