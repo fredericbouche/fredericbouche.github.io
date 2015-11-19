@@ -1,30 +1,41 @@
 -
   type: journal
-  title:  Extracellular peptidase hunting for improvement of protein production in plant cells and roots
-  authors: Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C. & Tocquin P.
-  journal: Frontiers in Plant Science
-  volume: In Press
-  issue: NA
+  title:  FLOR-ID: an interactive database of flowering-time gene networks in Arabidopsis thaliana.
+  authors: Bouché F., Lobet, G., Tocquin, P., & Périlleux C. & Tocquin P.
+  journal: Nucleic Acids Research
+  volume: In press
+  #issue: NA
   year: 2015
-  month: 
+  #month: 
+  pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf+html
+  url: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054
+-
+  type: journal
+  title:  Extracellular peptidase hunting for improvement of protein production in plant cells and roots
+  authors: Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C., & Tocquin P.
+  journal: Frontiers in Plant Science
+  volume: 6
+  #issue: NA
+  year: 2015
+  #month: 
   #pdf: 
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract
 -
   type: journal
   title:  Heat can erase epigenetic marks of vernalization in Arabidopsis
-  authors: Bouché F. , Detry N. & Périlleux C. 
+  authors: Bouché F. , Detry N., & Périlleux C. 
   journal: Plant Signalling and Behavior
-  volume: In press
-  issue: NA
-  year: 2014
-  month: 
-  #pdf: 
-  #url: 
+  volume: 10
+  issue: 3
+  year: 2015
+  #month: 
+  pdf: http://www.tandfonline.com/doi/pdf/10.4161/15592324.2014.990799
+  url: http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799
   
 -
   type: journal
   title:  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses.
-  authors: Périlleux C., Pieltain A., Jacquemin G., Bouché F., Detry N., D’Aloia M., Thiry L., Aljochim P., Delansnay M., Mathieu A.-S., Lutts S. & Tocquin P.
+  authors: Périlleux C., Pieltain A., Jacquemin G., Bouché F., Detry N., D’Aloia M., Thiry L., Aljochim P., Delansnay M., Mathieu A.-S., Lutts S., & Tocquin P.
   journal: The Plant Journal
   volume: 75 
   issue: 3
@@ -36,7 +47,7 @@
 -
   type: journal
   title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF. 
-  authors: D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G. & Périlleux C. 
+  authors: D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G., & Périlleux C. 
   journal: The plant journal
   volume: 65
   issue: 6
