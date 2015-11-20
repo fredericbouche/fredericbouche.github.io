@@ -1,7 +1,7 @@
 -
  type: Work
  title: Training of 9 students
- subtitle: 3 Master II thesis, 6 Master I students 
+ subtitle: 3 Master II thesis - 6 Master I students 
  url: http://www.phytosystems.ulg.ac.be/en/
  years: Laboratory of Plant Physiology, Phytosystems, University of Liège
 -
@@ -19,13 +19,19 @@
  years:
 
 
-
+- 
+ type: Work 
+ title: Postdoc in Plant Genetics - Flowering-time control of Brachypodium distachyon [BAEF fellow](http://www.baef.be/documents/home.xml?lang=en)
+ subtitle: Laboratory of Prof. Amasino, Dpt. of Biochemsitry, Univerity of Wisconsin-Madison (WI) 
+ url: http://genetics.wisc.edu/Amasino.htm
+ years: 2015-2016
  
+- 
 
  
 - 
- type: Education
- title: PhD in Plant Genetics
+ type: Education 
+ title: Ph.D. in Plant Genetics - Flowering-time control of Arabidopsis thaliana [Aspirant F.R.S.-FNRS](http://www.frs-fnrs.be/)
  subtitle: Laboratory of Plant Physiology, Phytosystems, University of Liège
  url: http://www.facsc.ulg.ac.be/cms/c_253092/en/doctoral-colleges
  years: 2010-2015
