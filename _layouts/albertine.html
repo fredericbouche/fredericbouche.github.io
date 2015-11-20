@@ -402,8 +402,8 @@ It is threatened by habitat loss.
           </p>
         {% endfor %}
         
-        
-        
+      
+
 <!-------------------------------->
         <h4> Work </h4>
 
@@ -411,18 +411,39 @@ It is threatened by habitat loss.
           <p>
             {% case miscellaneous.type %}
               {% when 'Work' %}
-            	<b>
-              	{% if miscellaneous.url  %}
+              <b>
+                {% if miscellaneous.url  %}
                 <a href="{{ miscellaneous.url }}">
-                 {{ miscellaneous.title }}
+                  {{ miscellaneous.title }}
                 </a>
+               <small>
+              | {{ miscellaneous.subtitle }}
+              </small>
+                
+                <small>
+              | {{ miscellaneous.years }}
+              </small>
+
               {% else %}
                 {{ miscellaneous.title }}
+                
+                <small>
+              | {{ miscellaneous.subtitle }}
+              </small>
+                
+                <small>
+              | {{ miscellaneous.years }}
+              </small>
+                
+
               {% endif %}
-            	</b>
+              </b>
             {% endcase %}
           </p>
         {% endfor %}
+
+        
+
     
 <!-------------------------------->
         <h4> Personal </h4>
