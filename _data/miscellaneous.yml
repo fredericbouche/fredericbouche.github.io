@@ -15,7 +15,7 @@
  type: Personal
  title: Member of the organizing board of the International Comblain Jazz Festival.
  subtitle: 
- url: http://www.comblainjazzfestival.be/
+ url: # http://www.comblainjazzfestival.be/
  years:
 
 - 
@@ -25,7 +25,12 @@
  url:
  years:
 
-
+- 
+ type: Personal
+ title: Music lover
+ subtitle: 
+ url:
+ years:
 
 
 
