@@ -363,6 +363,45 @@ It is threatened by habitat loss.
       <section class="col-md-10">
 
         <h3>Miscellaneous</h3>
+
+<!-------------------------------->
+        <h4> Work </h4>
+
+        {% for miscellaneous in site.data.miscellaneous %}
+          <p>
+            {% case miscellaneous.type %}
+              {% when 'Work' %}
+              <b>
+                {% if miscellaneous.url  %}
+                <a href="{{ miscellaneous.url }}">
+                  {{ miscellaneous.title }}
+                </a>
+               <small>
+              | {{ miscellaneous.subtitle }}
+              </small>
+                
+                <small>
+              | {{ miscellaneous.years }}
+              </small>
+
+              {% else %}
+                {{ miscellaneous.title }}
+                
+                <small>
+              | {{ miscellaneous.subtitle }}
+              </small>
+                
+                <small>
+              | {{ miscellaneous.years }}
+              </small>
+                
+
+              {% endif %}
+              </b>
+            {% endcase %}
+          </p>
+        {% endfor %}
+
         
 <!-------------------------------->
         <h4> Education </h4>
@@ -404,45 +443,8 @@ It is threatened by habitat loss.
         
       
 
-<!-------------------------------->
-        <h4> Work </h4>
 
-        {% for miscellaneous in site.data.miscellaneous %}
-          <p>
-            {% case miscellaneous.type %}
-              {% when 'Work' %}
-              <b>
-                {% if miscellaneous.url  %}
-                <a href="{{ miscellaneous.url }}">
-                  {{ miscellaneous.title }}
-                </a>
-               <small>
-              | {{ miscellaneous.subtitle }}
-              </small>
-                
-                <small>
-              | {{ miscellaneous.years }}
-              </small>
 
-              {% else %}
-                {{ miscellaneous.title }}
-                
-                <small>
-              | {{ miscellaneous.subtitle }}
-              </small>
-                
-                <small>
-              | {{ miscellaneous.years }}
-              </small>
-                
-
-              {% endif %}
-              </b>
-            {% endcase %}
-          </p>
-        {% endfor %}
-
-        
 
     
 <!-------------------------------->
@@ -454,11 +456,15 @@ It is threatened by habitat loss.
               {% when 'Personal' %}
             	<b>
               	{% if miscellaneous.url  %}
+                 <small>
                 <a href="{{ miscellaneous.url }}">
                   {{ miscellaneous.title }}
                 </a>
+                </small>
               {% else %}
+              <small>
                 {{ miscellaneous.title}}
+                </small>
               {% endif %}
             	</b>
             	
@@ -470,8 +476,6 @@ It is threatened by habitat loss.
       </section>     
     </div>
   </div>
-
-
 
 
 
