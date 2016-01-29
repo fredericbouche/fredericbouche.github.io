@@ -1,8 +1,11 @@
+
+
 -
-  name: 'Unravelling the shoot-root relationship in the context of flowering induction in Arabidopsis'
+  name: 'Understanding the mechanisms controlling flowering in Brachypodium distachyon'
   description: >
-    The induction of flowering is a complex process involving hundreds of genes that are part of different interconnected pathways. Together, they converge to regulate a small subset of genes that are responsible for the switch from the vegetative to the reproductive phase of the plant life cycle. Photoperiodic induction of flowering is mediated by a mobile signal produced in phloem’s companion cells that subsequently migrates to the shoot apical meristem and likely reaches roots. My work intends to use an integrative approach to unravel the relationships that exist between roots and shoot during the induction of flowering but also to identify the role of flowering time genes expressed in roots.
-  image: /img/Flower_drawings-05.png
+     Brachypodium distachyon is a grass species from the Triticeae tribe, which includes wheat, barley, oat, and rye. A better understanding of the molecular mechanisms controlling the flowering time in these species is necessary to improve yields. However, the economically important grasses tend to be physically large, have relatively long life cycles and possess complex genomes, thus making genetic studies very complex. In this context, Brachypodium emerge as a model organism to study the molecular mechanisms governing flowering in those species. The knowledge accumulated on the control of flowering time in Brachypodium will help researchers to better select inbred cereal crops.
+  image: /img/Brachy_parts-15.png
+  url: https://biochem.wisc.edu/faculty/amasino
 
 -
   name: 'Building a database of flowering time genes in Arabidopsis'
@@ -11,10 +14,9 @@
   image: /img/flo.png
   url: http://www.flor-id.org
 
-
--
-  name: 'Understanding the mechanisms controlling flowering in Brachypodium distachyon'
+  -
+  name: 'Unravelling the shoot-root relationship in the context of flowering induction in Arabidopsis'
   description: >
-     Brachypodium distachyon is a grass species from the Triticeae tribe, which also includes wheat, barley, and rye. A better understanding of the molecular mechanisms controlling the flowering time in these species is necessary to improve yields. owever, the economically important grasses tend to be physically large, have relatively long life cycles and possess complex genomes, thus making genetic studies very complex. In this context, Brachypodium emerge as a model organism to study the molecular mechanisms governing flowering in those species. We hope that the knowledge accumulated on the control of flowering time in Brachypodium will help researchers to better select inbred cereal crops.
-  image: /img/Brachy_parts-15.png
-  url: https://biochem.wisc.edu/faculty/amasino
+    The induction of flowering is a complex process involving hundreds of genes that are part of different interconnected pathways. Together, they converge to regulate a small subset of genes that are responsible for the switch from the vegetative to the reproductive phase of the plant life cycle. Photoperiodic induction of flowering is mediated by a mobile signal produced in phloem’s companion cells that subsequently migrates to the shoot apical meristem and likely reaches roots. My work intends to use an integrative approach to unravel the relationships that exist between roots and shoot during the induction of flowering but also to identify the role of flowering time genes expressed in roots.
+  image: /img/Flower_drawings-05.png
+  url: http://biorxiv.org/content/early/2016/01/08/036244
