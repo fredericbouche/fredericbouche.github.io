@@ -41,7 +41,7 @@ profiles:
   -
     network: Impact Story
     username: 
-    url: http://www.impactstory.org/FredericBouche
+    url: https://impactstory.org/u/0000-0002-8017-0071
 
   -
     network: Download CV
