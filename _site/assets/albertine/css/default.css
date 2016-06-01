@@ -50,11 +50,16 @@ section {
   padding:30px 0;
 }
   section h3 {
-    padding:0 0 8px;
-    line-height:10px;
-    font-weight:bold;
-    font-size:32px;
-    color:#ff5722;
+    margin: 1em 0 0.5em 0;
+  font-weight: normal;
+  position: relative;
+  font-size: 28px;
+  line-height: 40px;
+  background: rgba(223, 227, 233, 1.00);
+  padding: 5px 15px;
+  color: rgba(79, 101, 135, 1.00);
+  border-radius: 0 10px 0 10px;
+  font-family: 'Avenir', sans-serif;
   }
 
 section h4 {
@@ -62,7 +67,7 @@ section h4 {
     font-weight:bold;
     font-size:20px;
     color:#aa5353;
-    margin-top:70px;
+    margin-top:30px;
     margin-bottom:20px;
   }
 
@@ -78,7 +83,7 @@ section h4 {
   }
   section a,
   section a:hover {
-    color:#44a9eb;
+    color:#4F6687;
   }
 
 /*******************
@@ -86,19 +91,39 @@ section h4 {
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color:#4E6488;
-  color:#fff;
+  background-color:#F4F5F6;
+  color:#4F6687;
 }
   .intro-screen h1,
   .intro-screen h2,
   .intro-screen h3 {
-    color:#fff;
+    color:#4F6687;
   }
   .intro-screen a,
   .intro-screen a:hover {
-    color:#ACD3E2;
+    color:#2667A8;
     font-weight:bold;
   }
+
+
+/*************
+* ASIDE
+**************/
+
+content {
+    float: right;
+    padding: 3%;
+    width: 85%;
+}
+
+aside {
+    float: left;
+    padding: 3%;
+    width: 15%;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
 
 /*******************
  * TRANSITIONS

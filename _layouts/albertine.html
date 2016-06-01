@@ -65,7 +65,7 @@ It is threatened by habitat loss.
           <a font color="red" href="#projects">Projects</a> |
           <a  href="#publications">Publications</a> |
           <a  href="#presentations">Presentations </a> |
-          <a  href="#miscellaneous">Misc</a> 
+          <a  href="#miscellaneous">About me</a> 
                 </div>
 
         
@@ -196,7 +196,7 @@ It is threatened by habitat loss.
           <p>
             <img src="{{ site.baseurl }}{{ project.image }}" 
                  class="img-responsive" 
-                 style="width:100%; border:0px; margin-top:+20px">
+                 style="width:100%; border:0px; margin-top:+40px">
           </p>
         </div>
         <div class="col-xs-12
@@ -230,11 +230,9 @@ It is threatened by habitat loss.
   <!-- ==================== -->
   <!-- PUBLICATIONS -->
   <!-- ==================== -->
-
   <div class="container" id="publications">
     <div class="row">
       <section class="col-md-9">
-
         <h3>Publications</h3>
 <!-------------------------------->
         <h4>Peer-reviewed articles</h4>
@@ -243,26 +241,76 @@ It is threatened by habitat loss.
           <p>
             {% case publication.type %}
               {% when 'journal' %}
-            	<b>
-              	<a href="{{ publication.url }}">
-                	{{ publication.title }}
-              	</a>
-            	</b>
-            	<small>
-              		- {{ publication.year }}
-            	</small>
-            	<br>
-            		{{ publication.authors }}
-            	<br>              
-                	{{ publication.journal }},
-                	{{ publication.volume }},
-                	{{ publication.pages }}
-                	  <a href="{{ publication.url }}">[URL]</a>
+            	
+
+            <aside  id="sidebar">
+             <div class='altmetric-embed' data-badge-type='donut' data-doi="{{ publication.doi }}"></div>
+            </aside>
+
+              <section id="content">
+              <b>
+                <a href="{{ publication.url }}">
+                  {{ publication.title }}
+                </a>
+              </b>
+              <small>
+                  - {{ publication.year }}
+              </small>
+              <br>
+                {{ publication.authors }}
+              <br>              
+                  {{ publication.journal }},
+                  {{ publication.volume }}
+                  {{ publication.pages }}
+                    <a href="{{ publication.url }}">[URL]</a>
+            </section>
+
+
+
             {% endcase %}
           </p>
         {% endfor %}
+
+
+
+
+
+        {% for publication in site.data.publications %}
+       
+            
+
+            {% case publication.type %}
+              {% when 'journal2' %}
+
+            <aside  id="sidebar">
+             <div class='altmetric-embed' data-badge-type='donut' data-pmid="{{ publication.doi }}"></div>
+            </aside>
+
+              <section id="content">
+              <b>
+                <a href="{{ publication.url }}">
+                  {{ publication.title }}
+                </a>
+              </b>
+              <small>
+                  - {{ publication.year }}
+              </small>
+              <br>
+                {{ publication.authors }}
+              <br>              
+                  {{ publication.journal }},
+                  {{ publication.volume }}
+                  {{ publication.pages }}
+                    <a href="{{ publication.url }}">[URL]</a>
+            </section>
+             
+           
+            {% endcase %}
+          
+        {% endfor %}
     
     
+
   <!-------------------------------->  
   
         <h4>Posters </h4>
@@ -365,7 +413,7 @@ It is threatened by habitat loss.
     <div class="row">
       <section class="col-md-10">
 
-        <h3>Miscellaneous</h3>
+        <h3>More about me</h3>
 
 <!-------------------------------->
         <h4> Work </h4>
@@ -444,9 +492,7 @@ It is threatened by habitat loss.
           </p>
         {% endfor %}
         
-      
-
-
+    
 
 
     
@@ -542,5 +588,8 @@ It is threatened by habitat loss.
   });
   </script>
   
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 </body>
 </html>
+

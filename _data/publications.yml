@@ -1,5 +1,18 @@
 -
   type: journal
+  title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
+  authors: Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
+  journal: Currently under review
+  volume: 
+  issue: 
+  year: 2016
+  month: 
+  pdf: 
+  url: http://www.biorxiv.org/content/early/2016/01/08/036244
+  doi: 10.1101/036244
+
+-
+  type: journal
   title:  FLOR-ID - an interactive database of flowering-time gene networks in Arabidopsis thaliana.
   authors: Bouché F., Lobet, G., Tocquin, P., & Périlleux C. & Tocquin P.
   journal: Nucleic Acids Research
@@ -9,6 +22,7 @@
   month: 
   pdf: http://nar.oxfordjournals.org/content/44/D1/D1167.full.pdf+html
   url: http://nar.oxfordjournals.org/content/44/D1/D1167
+  doi: 10.1093/nar/gkv1054
 -
   type: journal
   title:  Extracellular peptidase hunting for improvement of protein production in plant cells and roots.
@@ -20,6 +34,7 @@
   month: 
   #pdf: 
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract
+  doi: 10.3389/fpls.2015.00037
 -
   type: journal
   title:  Heat can erase epigenetic marks of vernalization in Arabidopsis
@@ -31,6 +46,7 @@
   month: 
   pdf: http://www.tandfonline.com/doi/pdf/10.4161/15592324.2014.990799
   url: http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799
+  doi: 10.4161/15592324.2014.990799
   
 -
   type: journal
@@ -43,9 +59,10 @@
   month: August
   pdf: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
   url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
+  doi: 10.1111/tpj.12208
   
 -
-  type: journal
+  type: journal2
   title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF. 
   authors: D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G., & Périlleux C. 
   journal: The plant journal
@@ -55,6 +72,7 @@
   month: March
   #pdf: 
   url: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract
+  doi: 21205031
 
 
 -
@@ -68,9 +86,6 @@
   month: March
   #pdf:
   #url: 
- 
-
-
 
 
 -
