@@ -7,9 +7,9 @@ body {
           box-sizing:border-box;
   font-family:'Roboto', 'Arial', sans-serif;
   font-size:15.5px;
-  padding-top:50px;
+  padding-top: 130px;
   background-color:#fff;
-  padding-bottom: 50px;
+  padding-bottom: -50px;
 }
 
 /*******************
