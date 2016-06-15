@@ -241,11 +241,11 @@ It is threatened by habitat loss.
             {% case publication.type %}
               {% when 'journal' %}
             	
-            <aside  id="aside">
+            <aside  id="sidebar">
              <div class='altmetric-embed' data-badge-type='donut' data-doi="{{ publication.doi }}"></div>
             </aside>
 
-              <content id="content">
+              <aside id="content">
               <b>
                 <a href="{{ publication.url }}">
                   {{ publication.title }}
@@ -261,7 +261,7 @@ It is threatened by habitat loss.
                   {{ publication.volume }}
                   {{ publication.pages }}
                     <a href="{{ publication.url }}">[URL]</a>
-              </content>
+              </aside>
             {% endcase %}
           </p>
         {% endfor %}
