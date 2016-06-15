@@ -6,10 +6,10 @@ body {
      -moz-box-sizing:border-box;
           box-sizing:border-box;
   font-family:'Roboto', 'Arial', sans-serif;
-  font-size:14px;
+  font-size:17px;
   padding-top:100px;
   background-color:#fff;
-  padding-bottom: 100px;
+  padding-bottom: 500px;
 }
 
 /*******************
