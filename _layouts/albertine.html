@@ -87,6 +87,7 @@ It is threatened by habitat loss.
 
 
 
+
   <!-- ==================== -->
   <!-- SECTION -->
   <!-- ==================== -->
@@ -241,11 +242,12 @@ It is threatened by habitat loss.
             {% case publication.type %}
               {% when 'journal' %}
             	
+
             <aside  id="sidebar">
              <div class='altmetric-embed' data-badge-type='donut' data-doi="{{ publication.doi }}"></div>
             </aside>
 
-              <aside id="content">
+              <section id="content">
               <b>
                 <a href="{{ publication.url }}">
                   {{ publication.title }}
@@ -261,14 +263,21 @@ It is threatened by habitat loss.
                   {{ publication.volume }}
                   {{ publication.pages }}
                     <a href="{{ publication.url }}">[URL]</a>
-              </aside>
+            </section>
+
+
+
             {% endcase %}
           </p>
         {% endfor %}
 
 
+
+
+
         {% for publication in site.data.publications %}
-    
+       
+            
 
             {% case publication.type %}
               {% when 'journal2' %}
