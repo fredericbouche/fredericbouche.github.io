@@ -1,15 +1,41 @@
 -
   type: journal
-  title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
-  authors: Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
-  journal: Scientific Reports
+  title: Winter Memory throughout the plant kingdom - different paths to flowering
+  authors: Bouché F., Woods DP., & Amasino RM.
+  journal: Plant Physiology
   volume: In press
   issue: 
   year: 2016
   month: 
   pdf: 
-  url: http://www.biorxiv.org/content/early/2016/01/08/036244
-  doi: 10.1101/036244
+  url: 
+  doi: 
+
+-
+  type: journal
+  title: Genetic Architecture of flowering-time variation in Brachypodium distachyon
+  authors: Woods DP., Bednarek R., Bouché F., Gordon SP., Vogel JP., Garvin DF., & Amasino RM.
+  journal: Plant Physiology
+  volume: In press
+  issue: 
+  year: 2016
+  month: 
+  pdf: 
+  url: 
+  doi: 
+
+-
+  type: journal
+  title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
+  authors: Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
+  journal: Scientific Reports
+  volume: 6
+  issue: 29042
+  year: 2016
+  month: 6
+  pdf: http://www.nature.com/articles/srep29042.pdf
+  url: http://www.nature.com/articles/srep29042
+  doi: 10.1038/srep29042
 
 -
   type: journal
@@ -19,7 +45,7 @@
   volume: 44 (D1)
   issue: D1167-D1171
   year: 2016
-  month: 
+  month: 1
   pdf: http://nar.oxfordjournals.org/content/44/D1/D1167.full.pdf+html
   url: http://nar.oxfordjournals.org/content/44/D1/D1167
   doi: 10.1093/nar/gkv1054
