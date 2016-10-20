@@ -23,7 +23,6 @@
   pdf: http://www.plantphysiol.org/content/early/2016/10/14/pp.16.01178.full.pdf+html
   url: http:/​/​dx.​doi.​org/​10.​1104/​pp.​16.​01178
   doi: 10.​1104/​pp.​16.​01178
-
 -
   type: journal
   title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
@@ -73,7 +72,6 @@
   pdf: http://www.tandfonline.com/doi/pdf/10.4161/15592324.2014.990799
   url: http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799
   doi: 10.4161/15592324.2014.990799
-  
 -
   type: journal
   title:  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses.
@@ -86,7 +84,6 @@
   pdf: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
   url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
   doi: 10.1111/tpj.12208
-  
 -
   type: journal2
   title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF. 
@@ -99,8 +96,6 @@
   #pdf: 
   url: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract
   doi: 21205031
-
-
 -
   type: Poster
   title: Genetic Control of Flowering Time in Arabidopsis - an Interactive Database.
@@ -112,8 +107,6 @@
   month: March
   #pdf:
   #url: 
-
-
 -
   type: Poster
   title: Flowering Goes Underground.
@@ -125,8 +118,6 @@
   month: May
   #pdf:
   #url: 
- 
-
 -
   type: Poster
   title: The hidden half of flowering.
@@ -159,15 +150,9 @@
   year: 2011  
   month: June
   #pdf:
-  
-  
 - 
     type: Award
     title : Best Plant Biotechnology poster at the BioLiège Bioforum 2014.
     year : 2014
     journal: Prize awarded for the poster “Flowering Goes Underground”. 
     month: May
-
-
-
-  
