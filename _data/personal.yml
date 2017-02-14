@@ -1,11 +1,11 @@
 name: Frédéric Bouché
 
-label: Ph.D. in Plant Molecular Biology | Postdoctoral researcher | UW-Madison
+label: Ph.D. in Plant Genetics | Postdoctoral researcher | UW-Madison
 
 picture: /img/profile-picture.jpg
 banner:  /img/banner_flo-02.png
 email:  fbouche@wisc.edu
-
+bck_wheat: /img/wheat_bckg.jpeg
 phone: +32.4.366.38.37
 
 department: >             
@@ -57,6 +57,6 @@ intro:
   title: Welcome!
   body: >
     I'm a plant molecular biologist at the [University of Madison-Wisconsin](http://www.wisc.edu/).
-    After completing my master degree in Biochemistry, Molecular and Cellular Biology at the University of Liège (Belgium), I started a Ph.D. thesis in the lab of Prof. Claire Périlleux, where I worked on the model plant species Arabidopsis thaliana. As an Aspirant F.R.S.-FNRS, I studied [the genetic mechanisms controlling the flowering time at the whole-plant scale, including roots](http://hdl.handle.net/2268/190592), and earned a Ph.D. degree in 2015. In parallel to my bench work, I initiated the development of [FLOR-ID](http://www.phytosystems.ulg.ac.be/florid/), a curated and interactive database summarizing the accumulated knowledge about the onset of reproductive development in Arabidopsis thaliana. 
-    As a Postdoc at the University of Wisconsin-Madison ([BAEF Fellow](http://www.baef.be/documents/home.xml?lang=en)), I am currently working with Prof. Richard Amasino, one of the leading expert in the field of the genetic control of plant reproductive development. I study the genetic pathways regulating the onset of flowering in Brachypodium distachyon, a model grass species closely related to wheat, barley, and oats.
+    After a master degree in Biochemistry, Molecular and Cellular Biology at the University of Liège (Belgium), I completed a Ph.D. thesis on [the genetic mechanisms controlling the flowering time at the whole-plant scale, including roots](http://hdl.handle.net/2268/190592). In parallel to my bench work, I initiated the development of [FLOR-ID](http://www.phytosystems.ulg.ac.be/florid/), a curated and interactive database summarizing the accumulated knowledge about the onset of reproductive development in Arabidopsis thaliana. 
+    I now work as a Postdoc at the University of Wisconsin-Madison (Prof. Amasino lab), where I study the genetic pathways regulating the onset of flowering in Brachypodium distachyon, a model grass species closely related to wheat, barley, and oats.
 

@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 
-<!--
-
-Albertine 0.1
-An Elbowpatched theme
-
-(c) 2014 Ian Li (http://ianli.com)
-
-####
-
-Albertine owlet
-http://en.wikipedia.org/wiki/Albertine_owlet
-
-The Albertine owlet (Glaucidium albertinum) is a species of owl in the Strigidae family. 
-It is found in Democratic Republic of the Congo and Rwanda. 
-Its natural habitat is subtropical or tropical moist montane forests. 
-It is threatened by habitat loss.
-
--->
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -43,8 +24,20 @@ It is threatened by habitat loss.
   <!-- Javascript -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</head>
-<body class="intro-screen">
+  <script type="text/javascript"> $(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});</script>
+  <script type="text/javascript"> $(function () { $('[data-toggle="popover"]').popover()});</script>
+
+<script type="text/javascript">$(function () {
+$(".imagepop").css("display","none");
+$('[rel=popover]').popover({
+    html:true,
+    placement:'right',
+    content:function(){
+        return $($(this).data('popwrapper')).html();
+    }
+});
+});
+</script>
 
   <!-- ==================== -->
   <!-- HEADER -->
@@ -52,27 +45,26 @@ It is threatened by habitat loss.
   <header>
     <div class="container" >
       <div class="row">
-        <div class="col-xs-9 col-lg-7" style="margin-top:+12px";>
-          <h1>
+        <div class="col-xs-9 col-lg-7" style="margin-top:6px";>
+          <h1 style="font-size:120% ">
             {{ site.data.personal.name }}
           </h1>
-          <h2>
+          <h2 style="font-size:100% color:#fff" >
             {{ site.data.personal.label }}
           </h2>
         </div>
-        <div class="col-xs-3 col-lg-4" style="margin-top:+35px;>
-          <a href="#test" ></a>
-          <a font color="red" href="#projects">Projects</a> |
-          <a  href="#publications">Publications</a> |
-          <a  href="#presentations">Presentations </a> |
-          <a  href="#miscellaneous">About me</a> 
-                </div>
+        <div class="col-xs-3 col-lg-4" style="margin-top:+35px";>
+          <a class="btn btn-default btn-xs btn-transparent"   style="font-size:95%"  href="#projects">Projects</a> 
+          <a class="btn btn-default btn-xs btn-transparent"  style="font-size:95%" href="#publications">Publications</a> 
+          <a class="btn btn-default btn-xs btn-transparent"  style="font-size:95%" href="#presentations">Presentations </a> 
+          <a class="btn btn-default btn-xs btn-transparent"  style="font-size:95%" href="#miscellaneous">About</a> 
+        </div>
 
         
         <div class="col-xs-3 col-lg-1" >
           <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
                class="img-circle"
-               style="margin-top:3px;width:90px;border:2px solid rgba(255,255,255,0.75)">
+               style="margin-top:3px;width:80px;border:0px solid rgba(255,255,255,0.75)">
         </div>
 
            
@@ -80,66 +72,54 @@ It is threatened by habitat loss.
     </div>
   </header>
 
-
-
-
-
-
-
-
-
   <!-- ==================== -->
   <!-- SECTION -->
   <!-- ==================== -->
-  <div class="container"
-           id="section-about">
+
+  <!-- Bio -->
+  <div class="bgimg" id="section-about" > 
     <div class="row">
-      <section class="col-md-8" style="margin-top:-40px";>
+    <section class="col-md-offset-1 col-md-6" style="margin-top:8%" ;>
         {% if site.data.personal.intro.title %}
-          <h3 style="font-size:24px">
+          <h3 style="font-size:24px; color:white;background: rgba(0, 0, 0, 0.59)">
             {{ site.data.personal.intro.title }}
           </h3>
         {% else %}
           <h3>
             About
           </h3>
-        {% endif %}
-
-        <div class="lead" align="justify" style="font-size:18px">
-          {{ site.data.personal.intro.body | markdownify }}
+        {% endif %} 
+        </span>
+        <div id="allwhite" class="lead" align="justify" style="color:white;  background: rgba(0, 0, 0, 0.59)">
+        {{ site.data.personal.intro.body | markdownify }} 
         </div>
-        
+        </span>
         <p>
-
         </p>
-        
-        <div class=""  style="margin-top:+20px; text-align:center">
-       		 <img src="{{ site.baseurl }}{{ site.data.personal.banner }}" 
-               style="margin-top:3px;width:400px;border:0px solid rgba(255,255,255,0.75)"> 
-     
-        </div>
-        
-        
+
       </section>
-      <section class="col-md-offset-1 col-md-3">
-        <h3>Contact</h3>
-        <p>
-          <a href="mailto:{{ site.data.personal.email  }}">{{ site.data.personal.email  }}</a>
-        </p>
 
+      <!-- Contact -->
+      <section class="col-md-offset-1 col-md-3" style="margin-top:8%;" >
+        <h3  align="right">Contact</h3>
+       <div id="allwhite" class="contact" align="right" style="font-size:16px";>
+
+          <span  link="white">
+          <p>
+          <a href="mailto:{{ site.data.personal.email  }} " style="color:white">{{ site.data.personal.email  }}</a>
+          </p>
+          <p style="color:white;">
           {{ site.data.personal.group }}<br>
           {{ site.data.personal.lab }}<br>
           {{ site.data.personal.institution }}<br>
 
           {{ site.data.personal.mailing_address_1 }}<br>
           {{ site.data.personal.mailing_address_2}}<br>
-        
-        <p>
-
-        </p>
-
-
-        <p>
+          </p>
+          </span>
+          <p>
+          </p>
+          <p style="font-size: 14px">
           {% for profile in site.data.personal.profiles %}
             
             {% if profile.network == 'Google Scholar' %}
@@ -154,14 +134,11 @@ It is threatened by habitat loss.
             {% elsif profile.network == 'Twitter' %}
               <i class="fa fa-twitter-square"></i>
 			
-			{% elsif profile.network == 'Download CV' %}
+			      {% elsif profile.network == 'Download CV' %}
               <i class="fa fa-arrow-circle-down"></i>
 
-      {% elsif profile.network == 'PhD Dissertation' %}
+            {% elsif profile.network == 'PhD Dissertation' %}
               <i class="fa fa-arrow-circle-down"></i>
-
-
-
             {% endif %}
             <a href="{{ profile.url }}">
               {{ profile.network }}
@@ -171,404 +148,243 @@ It is threatened by habitat loss.
             {% endif %}
           {% endfor %}
         </p>
+        </div>
       </section>
     </div>
   </div>
-
- 
   {% if site.data.projects.size > 0 %}
   <!-- ==================== -->
   <!-- PROJECTS -->
   <!-- ==================== -->
-  <section class="container" id="projects">
-    <div class="row">
-      <div class="col-md-9">
-        <h3>Projects</h3>
-      </div>
-    </div>
+  
+  <!-- Title - projects -->
 
-    {% for project in site.data.projects %}
-      <div class="row" align="justify">
-        <div class="col-xs-4
-                    col-sm-3
-                    col-md-3
-                    col-lg-2">
-          <p>
-            <img src="{{ site.baseurl }}{{ project.image }}" 
+   <div align="center" class="sectiontitle" style="background: rgba(0, 0, 0, 0.85);color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >PROJECTS</h5>
+      </div>
+
+      <br>
+  <!-- Content - projects -->
+   <section class="container" id="projects" style="margin-top:-3%;" >
+    <div class="row-fluid" align="justify">
+          {% for project in site.data.projects %}
+              <div class="col-xs-14 col-sm-6 col-md-4 col-lg-4">
+                
+                <p>
+                <center>
+                 <img src="{{ site.baseurl }}{{ project.image }}" 
                  class="img-responsive" 
-                 style="width:100%; border:0px; margin-top:+40px">
-          </p>
-        </div>
-        <div class="col-xs-12
-                    col-sm-9
-                    col-md-6
-                    col-lg-7">
-          <p align="justify">
-            <b>
-              {% if project.url %}
-                <a href="{{ project.url }}">
-                  {{ project.name }}
-                </a>
-              {% else %}
-                {{ project.name }}
-              {% endif %}
-            </b>
-          </p>
+                 style="width:45%; border:0px" align="middle">
+                </center>
+                </p>
 
-          {{ project.description | markdownify }}
-        </div>
-      </div>
+				<p id="allwhite" align="center", style="background: #498DC6 ;padding: 2% 2% 2% 2%; border-radius: 4px 4px 4px 4px;">
+            		  <b>
+            		  {% if project.url %}
+                	  <a href="{{ project.url }}" style="font-size:17px;" >
+              	      {{ project.name}}
+                	  </a>
+              		  {% else %}
+              		  {{ project.name }}
+             		  {% endif %}
+                </b>
+                </p>
+
+
+                <p>
+                {{ project.description | markdownify }}
+                </p>
+                <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> {{ project.tag }}
+                </button>
+                      
+               </div>
     {% endfor %}
   </section>
   {% endif %}
 
-  {% if site.data.presentations.size > 0 %}
-  
-  
-  
-  
+
+
   <!-- ==================== -->
   <!-- PUBLICATIONS -->
   <!-- ==================== -->
-  <div class="container" id="publications">
-    <div class="row">
-      <section class="col-md-9">
-        <h3>Publications</h3>
-<!-------------------------------->
-        <h4>Peer-reviewed articles</h4>
-
-        {% for publication in site.data.publications %}
-          <p>
+  <div align="center" class="sectiontitle" style="background:#468CC8;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >PEER-REVIEWED ARTICLES</h5>
+    </div>
+ 
+<div class="container" id="publications">
+    <section class="col-md-8 col-lg-12">
+        <div class="row " style="margin-right:2%; margin-left: 2%">
+             {% for publication in site.data.publications %}
+          
+          <div class="item">
             {% case publication.type %}
               {% when 'journal' %}
-            	
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-doi="{{ publication.doi }}"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="{{ publication.url }}">
-                  {{ publication.title }}
-                </a>
-              </b>
-              <small>
-                  - {{ publication.year }}
-              </small>
-              <br>
-                {{ publication.authors }}
-              <br>              
-                  {{ publication.journal }},
-                  {{ publication.volume }}
-                  {{ publication.pages }}
-                    <a href="{{ publication.url }}">[URL]</a>
-            </section>
-
-
-
-            {% endcase %}
-          </p>
-        {% endfor %}
-
-
-
-
-
-        {% for publication in site.data.publications %}
-       
-            
-
-            {% case publication.type %}
-              {% when 'journal2' %}
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-pmid="{{ publication.doi }}"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="{{ publication.url }}">
-                  {{ publication.title }}
-                </a>
-              </b>
-              <small>
-                  - {{ publication.year }}
-              </small>
-              <br>
-                {{ publication.authors }}
-              <br>              
-                  {{ publication.journal }},
-                  {{ publication.volume }}
-                  {{ publication.pages }}
-                    <a href="{{ publication.url }}">[URL]</a>
-            </section>
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
              
+              
+              <br>
+
+                <p>
+                  <img src="{{ site.baseurl }}{{ publication.image }}" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">{{ publication.title }}</small>
+                <small style="color:black;font-weight: bold;"> [{{ publication.year }}].</small> <br>
+                <small>{{ publication.authors }}</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> {{ publication.journal }}
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> {{ publication.tag }}
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="{{ publication.pubmed }}" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="{{ publication.pdf }}" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="{{ site.baseurl }}{{ publication.infographics }}" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='{{ publication.doi }}'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             {% endcase %}
+       
+
+        {% endfor %}
+          
            
-            {% endcase %}
-          
-        {% endfor %}
-    
-    
-
-  <!-------------------------------->  
-  
-        <h4>Posters </h4>
-
-        {% for publication in site.data.publications %}
-          <p>
-
-            {% case publication.type %}
-              {% when 'Poster' %}
-            <b>
-
-              <!-- <a href="{{ publication.pdf }}"> -->
-                {{ publication.title }}
-               <!--</a>-->
-            </b>
-            <small>
-              {{ publication.year }}
-            </small>
-            <br>
-            {{ publication.authors }}
-            <br>              
-                {{ publication.journal }}
-            {% endcase %}
-          </p>
-        {% endfor %}
-
-<!-------------------------------->
-
-          <h4>Awards </h4>
-
-        {% for publication in site.data.publications %}
-          <p>
-
-            {% case publication.type %}
-              {% when 'Award' %}
-            <b>
-                {{ publication.title }}
-            </b>
-            <small>
-              {{ publication.year }}
-            </small>
-            <br>
-            {{ publication.journal }}
-          
-            {% endcase %}
-          </p>
-        {% endfor %}      
-        
+       </div>
+    </section>
+</div>
 
 
-      </section>     
-    </div>
-  </div>
-
-  
-  
-  
   <!-- ==================== -->
   <!-- PRESENTATIONS -->
   <!-- ==================== -->
-  <section class="container" id="presentations">
-    <div class="row">
-      <div class="col-md-10">
-        <h3>Presentations | <a style="font-size:16px" href="http://www.figshare.com/authors/Fr_d_ric_Bouch_/578965">Figshare profile</a>  </h3>
-      </div>
-    </div>
+<div align="center" class="sectiontitle" style="background:#468CC8;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >PRESENTATIONS AND POSTERS </h5>
+</div>
 
-    {% for presentation in site.data.presentations %}
-      <div class="row">
-        <div class="col-md-9">
-          <p>
-            <b>
-              {% if presentation.slides_url %}
-                <a href="{{ presentation.slides_url }}">
-                  {{ presentation.title }}
-                </a>
-              {% else %}
-                {{ presentation.title }}
-              {% endif %}
-            </b>
-            <small>
-              {{ presentation.date }}
-            </small>
-            <br>
-            {{ presentation.location }}
-          </p>
-        </div>
-      </div>
-    {% endfor %}
+
+<div class="container" id="presentations">
+
+  <section class="col-md-8 col-lg-12">
+     <div class="row " style="margin-right:2%; margin-left: 2%">
+             {% for publication in site.data.publications %}
+            <div class="li">
+            {% case publication.type %}
+              {% when 'Poster' %}
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="{{ site.baseurl }}{{ publication.image }}" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">{{ publication.title }}</small>
+                    <small style="color:black;font-weight: bold;"> [{{ publication.year }}].</small> <br>
+                    <small>{{ publication.authors }}</small> <br>
+                    <small style="color:black;">  {{ publication.journal }}</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> {{ publication.tag }}</button>
+                        <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            {% endcase %}
+       </div>
+
+        {% endfor %}
+          </div>
+           
+       
   </section>
-  {% endif %}
+</div>
+
 
 
   <!-- ==================== -->
   <!-- MISCELLANEOUS -->
   <!-- ==================== -->
-
-
-<div class="container" id="miscellaneous">
-    <div class="row">
-      <section class="col-md-10">
-
-        <h3>More about me</h3>
-
-<!-------------------------------->
-        <h4> Work </h4>
-
-        {% for miscellaneous in site.data.miscellaneous %}
-          <p>
-            {% case miscellaneous.type %}
-              {% when 'Work' %}
-              <b>
-                {% if miscellaneous.url  %}
-                <a href="{{ miscellaneous.url }}">
-                  {{ miscellaneous.title }}
-                </a>
-               <small>
-              | {{ miscellaneous.subtitle }}
-              </small>
-                
-                <small>
-              | {{ miscellaneous.years }}
-              </small>
-
-              {% else %}
-                {{ miscellaneous.title }}
-                
-                <small>
-              | {{ miscellaneous.subtitle }}
-              </small>
-                
-                <small>
-              | {{ miscellaneous.years }}
-              </small>
-                
-
-              {% endif %}
-              </b>
-            {% endcase %}
-          </p>
-        {% endfor %}
-
-        
-<!-------------------------------->
-        <h4> Education </h4>
-
-        {% for miscellaneous in site.data.miscellaneous %}
-          <p>
-            {% case miscellaneous.type %}
-              {% when 'Education' %}
-            	<b>
-              	{% if miscellaneous.url  %}
-                <a href="{{ miscellaneous.url }}">
-                  {{ miscellaneous.title }}
-                </a>
-               <small>
-              | {{ miscellaneous.subtitle }}
-              </small>
-                
-                <small>
-              | {{ miscellaneous.years }}
-              </small>
-
-              {% else %}
-                {{ miscellaneous.title }}
-                
-                <small>
-              | {{ miscellaneous.subtitle }}
-              </small>
-                
-                <small>
-              | {{ miscellaneous.years }}
-              </small>
-                
-
-              {% endif %}
-            	</b>
-            {% endcase %}
-          </p>
-        {% endfor %}
-        
-    
-
-
-    
-<!-------------------------------->
-        <h4> Personal </h4>
-
-        {% for miscellaneous in site.data.miscellaneous %}
-          <p>
-            {% case miscellaneous.type %}
-              {% when 'Personal' %}
-            	<b>
-              	{% if miscellaneous.url  %}
-                 <small>
-                <a href="{{ miscellaneous.url }}">
-                  {{ miscellaneous.title }}
-                </a>
-                </small>
-              {% else %}
-              <small>
-                {{ miscellaneous.title}}
-                </small>
-              {% endif %}
-            	</b>
-            	
-            {% endcase %}
-          </p>
-        {% endfor %}
-        
-
-      </section>     
+  <div align="center" class="sectiontitle" style="background:#468CC8;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >MORE ABOUT ME</h5>
     </div>
-  </div>
 
 
-
-
-
-
-  <!-- ==================== -->
-  <!-- FOOTER -->
-  <!-- ==================== -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">          
-          <img src="{{ site.baseurl }}/img/elbowpatched-icon.svg" alt="Elbowpatched"
-               style="float:left;margin-right:5px;width:20px;height:20px;">
-          Powered by 
-          <a href="http://www.elbowpatched.com">
-            Elbowpatched
-          </a>
-        </div>
-      </div>
+<div class="container" id="miscellaneous"></div>
+ <div align="center" class="sectiontitle" style="background:#4A4C60;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >Professionnal background</h5>
     </div>
-  </footer>
+ 
+
+<img src="{{ site.baseurl }}/img/panel_experience_bio.png" style='max-width: 100%;'>
+
+ 
+
+
+ <div align="center" class="sectiontitle" style="background:#666C83;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >When I am not doing Science</h5>
+    </div>
+ 
+
+<img src="{{ site.baseurl }}/img/panel_experience_hobby.png" style='max-width: 100%;'>
+
+
+
+
+ <div align="center" class="sectiontitle" style="background:#8992A3;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >Funding and Support</h5>
+    </div>
+
+
+<img src="{{ site.baseurl }}/img/panel_experience_funding.png" style='max-width: 100%;'>
+
+
+
 
   <!-- ==================== -->
   <!-- JAVASCRIPTS -->
   <!-- ==================== -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('#section-about').waypoint(function (direction) {
-        if (direction === 'down') {
-          $('body').removeClass('intro-screen');
-        } else {
-          $('body').addClass('intro-screen');
-        }
-      });
-    });
-  </script>
+ 
   
     <script>    
     $(function() {
@@ -590,6 +406,6 @@ It is threatened by habitat loss.
   
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
-</body>
-</html>
 
+
+</html>

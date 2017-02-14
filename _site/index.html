@@ -1,24 +1,5 @@
 <!DOCTYPE html>
 
-<!--
-
-Albertine 0.1
-An Elbowpatched theme
-
-(c) 2014 Ian Li (http://ianli.com)
-
-####
-
-Albertine owlet
-http://en.wikipedia.org/wiki/Albertine_owlet
-
-The Albertine owlet (Glaucidium albertinum) is a species of owl in the Strigidae family. 
-It is found in Democratic Republic of the Congo and Rwanda. 
-Its natural habitat is subtropical or tropical moist montane forests. 
-It is threatened by habitat loss.
-
--->
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -43,8 +24,20 @@ It is threatened by habitat loss.
   <!-- Javascript -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-</head>
-<body class="intro-screen">
+  <script type="text/javascript"> $(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});</script>
+  <script type="text/javascript"> $(function () { $('[data-toggle="popover"]').popover()});</script>
+
+<script type="text/javascript">$(function () {
+$(".imagepop").css("display","none");
+$('[rel=popover]').popover({
+    html:true,
+    placement:'right',
+    content:function(){
+        return $($(this).data('popwrapper')).html();
+    }
+});
+});
+</script>
 
   <!-- ==================== -->
   <!-- HEADER -->
@@ -52,27 +45,26 @@ It is threatened by habitat loss.
   <header>
     <div class="container" >
       <div class="row">
-        <div class="col-xs-9 col-lg-7" style="margin-top:+12px";>
-          <h1>
+        <div class="col-xs-9 col-lg-7" style="margin-top:6px";>
+          <h1 style="font-size:120% ">
             Frédéric Bouché
           </h1>
-          <h2>
-            Ph.D. in Plant Molecular Biology | Postdoctoral researcher | UW-Madison
+          <h2 style="font-size:100% color:#fff" >
+            Ph.D. in Plant Genetics | Postdoctoral researcher | UW-Madison
           </h2>
         </div>
-        <div class="col-xs-3 col-lg-4" style="margin-top:+35px;>
-          <a href="#test" ></a>
-          <a font color="red" href="#projects">Projects</a> |
-          <a  href="#publications">Publications</a> |
-          <a  href="#presentations">Presentations </a> |
-          <a  href="#miscellaneous">About me</a> 
-                </div>
+        <div class="col-xs-3 col-lg-4" style="margin-top:+35px";>
+          <a class="btn btn-default btn-xs btn-transparent"   style="font-size:95%"  href="#projects">Projects</a> 
+          <a class="btn btn-default btn-xs btn-transparent"  style="font-size:95%" href="#publications">Publications</a> 
+          <a class="btn btn-default btn-xs btn-transparent"  style="font-size:95%" href="#presentations">Presentations </a> 
+          <a class="btn btn-default btn-xs btn-transparent"  style="font-size:95%" href="#miscellaneous">About</a> 
+        </div>
 
         
         <div class="col-xs-3 col-lg-1" >
           <img src="/fredericbouche.github.io/img/profile-picture.jpg" 
                class="img-circle"
-               style="margin-top:3px;width:90px;border:2px solid rgba(255,255,255,0.75)">
+               style="margin-top:3px;width:80px;border:0px solid rgba(255,255,255,0.75)">
         </div>
 
            
@@ -80,50 +72,40 @@ It is threatened by habitat loss.
     </div>
   </header>
 
-
-
-
-
-
-
-
-
   <!-- ==================== -->
   <!-- SECTION -->
   <!-- ==================== -->
-  <div class="container"
-           id="section-about">
+
+  <!-- Bio -->
+  <div class="bgimg" id="section-about" > 
     <div class="row">
-      <section class="col-md-8" style="margin-top:-40px";>
+    <section class="col-md-offset-1 col-md-6" style="margin-top:8%" ;>
         
-          <h3 style="font-size:24px">
+          <h3 style="font-size:24px; color:white;background: rgba(0, 0, 0, 0.59)">
             Welcome!
           </h3>
-        
-
-        <div class="lead" align="justify" style="font-size:18px">
-          <p>I’m a plant molecular biologist at the <a href="http://www.wisc.edu/">University of Madison-Wisconsin</a>. After completing my master degree in Biochemistry, Molecular and Cellular Biology at the University of Liège (Belgium), I started a Ph.D. thesis in the lab of Prof. Claire Périlleux, where I worked on the model plant species Arabidopsis thaliana. As an Aspirant F.R.S.-FNRS, I studied <a href="http://hdl.handle.net/2268/190592">the genetic mechanisms controlling the flowering time at the whole-plant scale, including roots</a>, and earned a Ph.D. degree in 2015. In parallel to my bench work, I initiated the development of <a href="http://www.phytosystems.ulg.ac.be/florid/">FLOR-ID</a>, a curated and interactive database summarizing the accumulated knowledge about the onset of reproductive development in Arabidopsis thaliana.  As a Postdoc at the University of Wisconsin-Madison (<a href="http://www.baef.be/documents/home.xml?lang=en">BAEF Fellow</a>), I am currently working with Prof. Richard Amasino, one of the leading expert in the field of the genetic control of plant reproductive development. I study the genetic pathways regulating the onset of flowering in Brachypodium distachyon, a model grass species closely related to wheat, barley, and oats.</p>
-
+         
+        </span>
+        <div id="allwhite" class="lead" align="justify" style="color:white;  background: rgba(0, 0, 0, 0.59)">
+        <p>I’m a plant molecular biologist at the <a href="http://www.wisc.edu/">University of Madison-Wisconsin</a>. After a master degree in Biochemistry, Molecular and Cellular Biology at the University of Liège (Belgium), I completed a Ph.D. thesis on <a href="http://hdl.handle.net/2268/190592">the genetic mechanisms controlling the flowering time at the whole-plant scale, including roots</a>. In parallel to my bench work, I initiated the development of <a href="http://www.phytosystems.ulg.ac.be/florid/">FLOR-ID</a>, a curated and interactive database summarizing the accumulated knowledge about the onset of reproductive development in Arabidopsis thaliana.  I now work as a Postdoc at the University of Wisconsin-Madison (Prof. Amasino lab), where I study the genetic pathways regulating the onset of flowering in Brachypodium distachyon, a model grass species closely related to wheat, barley, and oats.</p>
+ 
         </div>
-        
+        </span>
         <p>
-
         </p>
-        
-        <div class=""  style="margin-top:+20px; text-align:center">
-       		 <img src="/fredericbouche.github.io/img/banner_flo-02.png" 
-               style="margin-top:3px;width:400px;border:0px solid rgba(255,255,255,0.75)"> 
-     
-        </div>
-        
-        
+
       </section>
-      <section class="col-md-offset-1 col-md-3">
-        <h3>Contact</h3>
-        <p>
-          <a href="mailto:fbouche@wisc.edu">fbouche@wisc.edu</a>
-        </p>
 
+      <!-- Contact -->
+      <section class="col-md-offset-1 col-md-3" style="margin-top:8%;" >
+        <h3  align="right">Contact</h3>
+       <div id="allwhite" class="contact" align="right" style="font-size:16px";>
+
+          <span  link="white">
+          <p>
+          <a href="mailto:fbouche@wisc.edu " style="color:white">fbouche@wisc.edu</a>
+          </p>
+          <p style="color:white;">
           Amasino lab<br>
           HF DeLuca Biochemistry Laboratories<br>
           University of Wisconsin-Madison<br>
@@ -132,13 +114,11 @@ It is threatened by habitat loss.
 <br>
           53706 Madison | United-States
 <br>
-        
-        <p>
-
-        </p>
-
-
-        <p>
+          </p>
+          </span>
+          <p>
+          </p>
+          <p style="font-size: 14px">
           
             
             
@@ -168,7 +148,7 @@ It is threatened by habitat loss.
             
               <i class="fa fa-twitter-square"></i>
 			
-			
+			      
             <a href="https://twitter.com/Frederic_Bouche">
               Twitter
             </a>
@@ -192,7 +172,7 @@ It is threatened by habitat loss.
             
               <i class="fa fa-arrow-circle-down"></i>
 
-      
+            
             <a href="https://dl.dropboxusercontent.com/u/110671384/CV_FredericBouche.pdf">
               Download CV
             </a>
@@ -203,9 +183,6 @@ It is threatened by habitat loss.
             
             
               <i class="fa fa-arrow-circle-down"></i>
-
-
-
             
             <a href="http://orbi.ulg.ac.be/handle/2268/190592">
               PhD Dissertation
@@ -213,958 +190,1143 @@ It is threatened by habitat loss.
             
           
         </p>
+        </div>
       </section>
     </div>
   </div>
-
- 
   
   <!-- ==================== -->
   <!-- PROJECTS -->
   <!-- ==================== -->
-  <section class="container" id="projects">
-    <div class="row">
-      <div class="col-md-9">
-        <h3>Projects</h3>
-      </div>
-    </div>
+  
+  <!-- Title - projects -->
 
-    
-      <div class="row" align="justify">
-        <div class="col-xs-4
-                    col-sm-3
-                    col-md-3
-                    col-lg-2">
-          <p>
-            <img src="/fredericbouche.github.io/img/Brachy_parts-15.png" 
+   <div align="center" class="sectiontitle" style="background: rgba(0, 0, 0, 0.85);color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >PROJECTS</h5>
+      </div>
+
+      <br>
+  <!-- Content - projects -->
+   <section class="container" id="projects" style="margin-top:-3%;" >
+    <div class="row-fluid" align="justify">
+          
+              <div class="col-xs-14 col-sm-6 col-md-4 col-lg-4">
+                
+                <p>
+                <center>
+                 <img src="/fredericbouche.github.io/img/Panel_projects_flowering_brachypodium.png" 
                  class="img-responsive" 
-                 style="width:100%; border:0px; margin-top:+40px">
-          </p>
-        </div>
-        <div class="col-xs-12
-                    col-sm-9
-                    col-md-6
-                    col-lg-7">
-          <p align="justify">
-            <b>
-              
-                <a href="https://biochem.wisc.edu/faculty/amasino">
-                  Understanding the mechanisms controlling flowering in Brachypodium distachyon
-                </a>
-              
-            </b>
-          </p>
+                 style="width:45%; border:0px" align="middle">
+                </center>
+                </p>
 
-          <p>Brachypodium distachyon is a grass species from the Triticeae tribe, which includes wheat, barley, oat, and rye. A better understanding of the molecular mechanisms controlling the initiation of flowering in these species is necessary to improve yields. However, the economically important grasses tend to be physically large, have relatively long life cycles and possess complex genomes, thus making genetic studies very complex. In this context, Brachypodium emerges as a model organism to study the molecular mechanisms governing flowering in those species. The knowledge accumulated on the control of flowering time in Brachypodium will help researchers to better select inbred cereal crops.</p>
+				<p id="allwhite" align="center", style="background: #498DC6 ;padding: 2% 2% 2% 2%; border-radius: 4px 4px 4px 4px;">
+            		  <b>
+            		  
+                	  <a href="https://biochem.wisc.edu/faculty/amasino" style="font-size:17px;" >
+              	      The genetic basis of flowering-time control in Brachypodium
+                	  </a>
+              		  
+                </b>
+                </p>
 
-        </div>
-      </div>
+
+                <p>
+                <p><em>Brachypodium distachyon</em> is a grass species from the Triticeae tribe, which includes wheat, barley, oat, and rye. A better understanding of the molecular mechanisms controlling the initiation of flowering in these species is necessary to improve yields. However, the economically important grasses tend to be physically large, have relatively long life cycles and possess complex genomes, thus making genetic studies very complex. In this context, Brachypodium emerges as a model organism to study the molecular mechanisms governing flowering in those species. The knowledge accumulated on the control of flowering time in Brachypodium will help researchers to better select inbred cereal crops.</p>
+
+                </p>
+                <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Brachypodium  |  Flowering
+                </button>
+                      
+               </div>
     
-      <div class="row" align="justify">
-        <div class="col-xs-4
-                    col-sm-3
-                    col-md-3
-                    col-lg-2">
-          <p>
-            <img src="/fredericbouche.github.io/img/flo.png" 
+              <div class="col-xs-14 col-sm-6 col-md-4 col-lg-4">
+                
+                <p>
+                <center>
+                 <img src="/fredericbouche.github.io/img/Panel_projects_florid.png" 
                  class="img-responsive" 
-                 style="width:100%; border:0px; margin-top:+40px">
-          </p>
-        </div>
-        <div class="col-xs-12
-                    col-sm-9
-                    col-md-6
-                    col-lg-7">
-          <p align="justify">
-            <b>
-              
-                <a href="http://www.flor-id.org">
-                  Building a database of flowering time genes in Arabidopsis
-                </a>
-              
-            </b>
-          </p>
+                 style="width:45%; border:0px" align="middle">
+                </center>
+                </p>
 
-          <p>The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. Our knowledge of the molecular mechanisms governing the floral induction of Arabidopsis thaliana increases quickly and a significant number of reviews are published every year on this topic. Nevertheless, we believe that the current landscape of flowering-time research in Arabidopsis misses an exhaustive repository of the genes involved in the control of flowering and their regulatory pathways. Hence, we developed a web-based interactive resource organized around a curated database of the flowering time genes, available at <a href="http://www.flor-id.org">www.flor-id.org</a>. This project is a collaboration with <a href="http://bit.ly/1D7XF9W">Guillaume Lobet</a>, and was published in <a href="http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gkv1054">Nucleic Acids Research</a>. <br /> <br />  Read more about it: <a href="https://floweringhighlights.org/2016/01/21/flowering-highlights-a-database-for-all-things-flowering-by-frank-wellmer/">Flowering highlights</a> - <a href="http://f1000.com/prime/725855174">F1000 Prime</a> - <a href="http://reflexions.ulg.ac.be/cms/c_409421/en/the-genetics-of-flowering-a-new-database">ULg website</a> - <a href="http://www.externaldiffusion.com/an-innovative-type-of-review-an-interactive-database-of-flowering-time-gene-networks-in-arabidopsis-thaliana-by-frederic-bouche-university-of-liege/">External Diffusion</a> - <a href="https://www.youtube.com/watch?v=yyp8W5A0L88">Video description</a> <br /></p>
+				<p id="allwhite" align="center", style="background: #498DC6 ;padding: 2% 2% 2% 2%; border-radius: 4px 4px 4px 4px;">
+            		  <b>
+            		  
+                	  <a href="http://www.flor-id.org" style="font-size:17px;" >
+              	      Database of Arabidopsis flowering-time genes
+                	  </a>
+              		  
+                </b>
+                </p>
 
-        </div>
-      </div>
+
+                <p>
+                <p>The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. Our knowledge of the molecular mechanisms governing the floral induction of Arabidopsis thaliana increases quickly and a significant number of reviews are published every year on this topic. We developed a web-based interactive resource organized around a curated database of the flowering time genes, available at <a href="http://www.flor-id.org">www.flor-id.org</a>. This project is a collaboration with <a href="http://bit.ly/1D7XF9W">Guillaume Lobet</a>, and was published in <a href="http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gkv1054">Nucleic Acids Research</a>. <br /> <br />  Read more about it: <a href="https://floweringhighlights.org/2016/01/21/flowering-highlights-a-database-for-all-things-flowering-by-frank-wellmer/">Flowering highlights</a> - <a href="http://f1000.com/prime/725855174">F1000 Prime</a> - <a href="http://reflexions.ulg.ac.be/cms/c_409421/en/the-genetics-of-flowering-a-new-database">ULg website</a> - <a href="http://www.externaldiffusion.com/an-innovative-type-of-review-an-interactive-database-of-flowering-time-gene-networks-in-arabidopsis-thaliana-by-frederic-bouche-university-of-liege/">External Diffusion</a> - <a href="https://www.youtube.com/watch?v=yyp8W5A0L88">Video description</a> <br /></p>
+
+                </p>
+                <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis  |  Flowering gene networks  |  Interactive database
+                </button>
+                      
+               </div>
     
-      <div class="row" align="justify">
-        <div class="col-xs-4
-                    col-sm-3
-                    col-md-3
-                    col-lg-2">
-          <p>
-            <img src="/fredericbouche.github.io/img/Flower_drawings-05.png" 
+              <div class="col-xs-14 col-sm-6 col-md-4 col-lg-4">
+                
+                <p>
+                <center>
+                 <img src="/fredericbouche.github.io/img/Panel_projects_flowering_arabidopsis.png" 
                  class="img-responsive" 
-                 style="width:100%; border:0px; margin-top:+40px">
-          </p>
-        </div>
-        <div class="col-xs-12
-                    col-sm-9
-                    col-md-6
-                    col-lg-7">
-          <p align="justify">
-            <b>
-              
-                <a href="http://biorxiv.org/content/early/2016/01/08/036244">
-                  Unravelling the shoot-root relationship in the context of flowering induction in Arabidopsis
-                </a>
-              
-            </b>
-          </p>
+                 style="width:45%; border:0px" align="middle">
+                </center>
+                </p>
 
-          <p>The induction of flowering is a complex process involving hundreds of genes that are part of different interconnected pathways. Together, they converge to regulate a small subset of genes that are responsible for the switch from the vegetative to the reproductive phase of the plant life cycle. Photoperiodic induction of flowering is mediated by a mobile signal produced in phloem’s companion cells that subsequently migrates to the shoot apical meristem and likely reaches roots. My work intends to use an integrative approach to unravel the relationships that exist between roots and shoot during the induction of flowering but also to identify the role of flowering time genes expressed in roots.</p>
+				<p id="allwhite" align="center", style="background: #498DC6 ;padding: 2% 2% 2% 2%; border-radius: 4px 4px 4px 4px;">
+            		  <b>
+            		  
+                	  <a href="http://biorxiv.org/content/early/2016/01/08/036244" style="font-size:17px;" >
+              	      Involvment of roots in floral induction in Arabidopsis
+                	  </a>
+              		  
+                </b>
+                </p>
 
-        </div>
-      </div>
+
+                <p>
+                <p>The induction of flowering is a complex process involving hundreds of genes that are part of different interconnected pathways. Together, they converge to regulate a small subset of genes that are responsible for the switch from the vegetative to the reproductive phase of the plant life cycle. Photoperiodic induction of flowering is mediated by a mobile signal produced in phloem’s companion cells that subsequently migrates to the shoot apical meristem and likely reaches roots. My work intends to use an integrative approach to unravel the relationships that exist between roots and shoot during the induction of flowering but also to identify the role of flowering time genes expressed in roots.</p>
+
+                </p>
+                <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis  |  Flowering  |   Roots
+                </button>
+                      
+               </div>
     
   </section>
   
 
-  
-  
-  
-  
-  
+
+
   <!-- ==================== -->
   <!-- PUBLICATIONS -->
   <!-- ==================== -->
-  <div class="container" id="publications">
-    <div class="row">
-      <section class="col-md-9">
-        <h3>Publications</h3>
-<!-------------------------------->
-        <h4>Peer-reviewed articles</h4>
-
-        
-          <p>
-            
-            	
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1101/036244"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="http://www.biorxiv.org/content/early/2016/01/08/036244">
-                  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
-                </a>
-              </b>
-              <small>
-                  - 2016
-              </small>
-              <br>
-                Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
-              <br>              
-                  Currently under review,
-                  
-                  
-                    <a href="http://www.biorxiv.org/content/early/2016/01/08/036244">[URL]</a>
-            </section>
-
-
-
-            
-          </p>
-        
-          <p>
-            
-            	
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1093/nar/gkv1054"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="http://nar.oxfordjournals.org/content/44/D1/D1167">
-                  FLOR-ID - an interactive database of flowering-time gene networks in Arabidopsis thaliana.
-                </a>
-              </b>
-              <small>
-                  - 2016
-              </small>
-              <br>
-                Bouché F., Lobet, G., Tocquin, P., & Périlleux C. & Tocquin P.
-              <br>              
-                  Nucleic Acids Research,
-                  44 (D1)
-                  
-                    <a href="http://nar.oxfordjournals.org/content/44/D1/D1167">[URL]</a>
-            </section>
-
-
-
-            
-          </p>
-        
-          <p>
-            
-            	
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.3389/fpls.2015.00037"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract">
-                  Extracellular peptidase hunting for improvement of protein production in plant cells and roots.
-                </a>
-              </b>
-              <small>
-                  - 2015
-              </small>
-              <br>
-                Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C., & Tocquin P.
-              <br>              
-                  Frontiers in Plant Science,
-                  6
-                  
-                    <a href="http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract">[URL]</a>
-            </section>
-
-
-
-            
-          </p>
-        
-          <p>
-            
-            	
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.4161/15592324.2014.990799"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799">
-                  Heat can erase epigenetic marks of vernalization in Arabidopsis
-                </a>
-              </b>
-              <small>
-                  - 2015
-              </small>
-              <br>
-                Bouché F. , Detry N., & Périlleux C.
-              <br>              
-                  Plant Signalling and Behavior,
-                  10
-                  
-                    <a href="http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799">[URL]</a>
-            </section>
-
-
-
-            
-          </p>
-        
-          <p>
-            
-            	
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1111/tpj.12208"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03">
-                  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses.
-                </a>
-              </b>
-              <small>
-                  - 2013
-              </small>
-              <br>
-                Périlleux C., Pieltain A., Jacquemin G., Bouché F., Detry N., D’Aloia M., Thiry L., Aljochim P., Delansnay M., Mathieu A.-S., Lutts S., & Tocquin P.
-              <br>              
-                  The Plant Journal,
-                  75
-                  
-                    <a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03">[URL]</a>
-            </section>
-
-
-
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-
-
-
-
-
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-
-            <aside  id="sidebar">
-             <div class='altmetric-embed' data-badge-type='donut' data-pmid="21205031"></div>
-            </aside>
-
-              <section id="content">
-              <b>
-                <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract">
-                  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF.
-                </a>
-              </b>
-              <small>
-                  - 2011
-              </small>
-              <br>
-                D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G., & Périlleux C.
-              <br>              
-                  The plant journal,
-                  65
-                  
-                    <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract">[URL]</a>
-            </section>
-             
-           
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-       
-            
-
-            
-          
-        
-    
-    
-
-  <!-------------------------------->  
-  
-        <h4>Posters </h4>
-
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-            <b>
-
-              <!-- <a href=""> -->
-                Genetic Control of Flowering Time in Arabidopsis - an Interactive Database.
-               <!--</a>-->
-            </b>
-            <small>
-              2015
-            </small>
-            <br>
-            Bouché F., Lobet G., Tocquin P., & Périlleux C.
-            <br>              
-                Plant Organ Growth Symposium 2015, Ghent [Belgium]
-            
-          </p>
-        
-          <p>
-
-            
-            <b>
-
-              <!-- <a href=""> -->
-                Flowering Goes Underground.
-               <!--</a>-->
-            </b>
-            <small>
-              2014
-            </small>
-            <br>
-            Bouché F., Lobet G., D’Aloia M., Detry N., Tocquin P., & Périlleux C.
-            <br>              
-                The Bioforum 2014 of BioLiège, Liège [Belgium]
-            
-          </p>
-        
-          <p>
-
-            
-            <b>
-
-              <!-- <a href=""> -->
-                The hidden half of flowering.
-               <!--</a>-->
-            </b>
-            <small>
-              2013
-            </small>
-            <br>
-            Bouché F., Mistiaen K., D’Aloia M., Detry N., Tocquin P., & Périlleux C.
-            <br>              
-                Workshop on Molecular Mechanisms controlling flower development, Giens [France]
-            
-          </p>
-        
-          <p>
-
-            
-            <b>
-
-              <!-- <a href=""> -->
-                Molecular analysis of root medium impact on Arabidopsis thaliana development.
-               <!--</a>-->
-            </b>
-            <small>
-              2013
-            </small>
-            <br>
-            Bouché F., André J., Tocquin P., & Périlleux C.
-            <br>              
-                The Bioforum 2013 of BioLiège, Liège [Belgium]
-            
-          </p>
-        
-          <p>
-
-            
-            <b>
-
-              <!-- <a href=""> -->
-                A cytokinin route to flowering in Arabidopsis.
-               <!--</a>-->
-            </b>
-            <small>
-              2011
-            </small>
-            <br>
-            Bouché F., André J., D’Aloia M., Bonhomme D., & Périlleux C.
-            <br>              
-                Workshop on Molecular Mechanisms controlling flower development, Maratea [Italy]
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-
-<!-------------------------------->
-
-          <h4>Awards </h4>
-
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-          </p>
-        
-          <p>
-
-            
-            <b>
-                Best Plant Biotechnology poster at the BioLiège Bioforum 2014.
-            </b>
-            <small>
-              2014
-            </small>
-            <br>
-            Prize awarded for the poster “Flowering Goes Underground”.
-          
-            
-          </p>
-              
-        
-
-
-      </section>     
+  <div align="center" class="sectiontitle" style="background:#468CC8;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >PEER-REVIEWED ARTICLES</h5>
     </div>
-  </div>
+ 
+<div class="container" id="publications">
+    <section class="col-md-8 col-lg-12">
+        <div class="row " style="margin-right:2%; margin-left: 2%">
+             
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
 
-  
-  
-  
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_vernalization.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Winter Memory throughout the Plant Kingdom - Different Paths to Flowering</small>
+                <small style="color:black;font-weight: bold;"> [2017].</small> <br>
+                <small>Bouché, F., Woods, DP., & Amasino RM.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> Plant Physiology
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Evolution | vernalization | Flowering
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://www.plantphysiol.org/content/173/1/27.full" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210730/" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://www.plantphysiol.org/content/173/1/27.full.pdf+html" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.iohttps://figshare.com/s/5f3d93d79a7a5b4919c5" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.1104/pp.16.01322'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_QTL.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Genetic Architecture of Flowering-Time Variation in Brachypodium distachyon</small>
+                <small style="color:black;font-weight: bold;"> [2017].</small> <br>
+                <small>Woods, DP., Bednarek, R., Bouché, F., Gordon, SP., Vogel, JP., Garvin DF., & Amasino, RM.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> Plant Physiology
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Brachypodium | QTL | Flowering
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://www.plantphysiol.org/lookup/doi/10.1104/pp.16.01178" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210718/" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://www.plantphysiol.org/content/173/1/269.full.pdf+html" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.iohttps://figshare.com/s/8f30113c7b4aea26e9bd" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.1104/pp.16.01178'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_Roots.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana</small>
+                <small style="color:black;font-weight: bold;"> [2016].</small> <br>
+                <small>Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> Scientific Reports
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis | Roots |  Flowering
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://www.nature.com/articles/srep29042" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pubmed/27352932" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://www.nature.com/articles/srep29042.pdf" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.iohttps://figshare.com/s/436a04c044549a04414e" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.1038/srep29042'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_florid.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">FLOR-ID - an interactive database of flowering-time gene networks in Arabidopsis thaliana</small>
+                <small style="color:black;font-weight: bold;"> [2016].</small> <br>
+                <small>Bouché F., Lobet, G., Tocquin, P., & Périlleux C. & Tocquin P.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> Nucleic Acids Research
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis | flowering | Database
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://nar.oxfordjournals.org/content/44/D1/D1167" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="http://nar.oxfordjournals.org/content/44/D1/D1167" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://nar.oxfordjournals.org/content/44/D1/D1167.full.pdf+html" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.iohttps://figshare.com/s/436a04c044549a04414e" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.1093/nar/gkv1054'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_proteases.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Extracellular peptidase hunting for improvement of protein production in plant cells and roots</small>
+                <small style="color:black;font-weight: bold;"> [2015].</small> <br>
+                <small>Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C., & Tocquin P.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> Frontiers in Plant Science
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis | Proteases | Data-mining
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pubmed/25705212" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://journal.frontiersin.org/article/10.3389/fpls.2015.00037/pdf" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.io/img/articles_infographics/Infographics_proteases.png" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.3389/fpls.2015.00037'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_devernalization.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Heat can erase epigenetic marks of vernalization in Arabidopsis</small>
+                <small style="color:black;font-weight: bold;"> [2015].</small> <br>
+                <small>Bouché F. , Detry N., & Périlleux C.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> Plant Signalling and Behavior
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis | Flowering | Devernalization
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pubmed/25648822" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://www.tandfonline.com/doi/pdf/10.4161/15592324.2014.990799" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.io/img/articles_infographics/Infographics_devernalization.png" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.4161/15592324.2014.990799'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_root_chicory.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses</small>
+                <small style="color:black;font-weight: bold;"> [2013].</small> <br>
+                <small>Périlleux C., Pieltain A., Jacquemin G., Bouché F., Detry N., D’Aloia M., Thiry L., Aljochim P., Delansnay M., Mathieu A.-S., Lutts S., & Tocquin P.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> The Plant Journal
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Root chicory | Flowering | Vernalization
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pubmed/23581257" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/epdf" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.io/img/articles_infographics/Infographics_root_chicory.png" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.1111/tpj.12208'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+              <!--- ==== Start of one article  -->
+              
+<p>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="overflow: hidden">
+             
+              
+              <br>
+
+                <p>
+                  <img src="/fredericbouche.github.io/img/articles_images/Images_CK.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;">
+                </p> 
+                <p>  
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF</small>
+                <small style="color:black;font-weight: bold;"> [2011].</small> <br>
+                <small>D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G., & Périlleux C.</small> <br>
+                <!-------- Journal -------->
+                        <button type="button" class="btn btn-success btn-xs">
+                          <i class="fa fa-tag"></i> The plant journal
+                        </button><br>
+               <!-------- TAGS -------->
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> Arabidopsis | Cytokinins | Flowering
+                        </button>
+                </p>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                      <a class="btn btn-default btn-xs" href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                      <a class="btn btn-default btn-xs" href="https://www.ncbi.nlm.nih.gov/pubmed/21205031" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>          
+                      <a class="btn btn-default btn-xs" href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/epdf" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a><br>
+                      <a class="btn btn-default btn-xs" href="/fredericbouche.github.iohttps://figshare.com/s/0eb8c098170c7ea09abf" target="_blank">
+                        <i class="fa fa-link"></i> Graphical abstract 
+                      </a>
+                </div>  
+
+
+                <!-------- ALTMETRICS --------> 
+                                 
+                <div class='altmetric-embed' data-badge-type='4' data-doi='10.1111/j.1365-313X.2011.04482.x'></div>
+             <hr style="height:1px; visibility:hidden;" />
+             </p>
+              </div>
+              </div>
+              <!--- ==== End of one article  -->
+
+             
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+          <div class="item">
+            
+       
+
+        
+          
+           
+       </div>
+    </section>
+</div>
+
+
   <!-- ==================== -->
   <!-- PRESENTATIONS -->
   <!-- ==================== -->
-  <section class="container" id="presentations">
-    <div class="row">
-      <div class="col-md-10">
-        <h3>Presentations | <a style="font-size:16px" href="http://www.figshare.com/authors/Fr_d_ric_Bouch_/578965">Figshare profile</a>  </h3>
-      </div>
-    </div>
+<div align="center" class="sectiontitle" style="background:#468CC8;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >PRESENTATIONS AND POSTERS </h5>
+</div>
 
-    
-      <div class="row">
-        <div class="col-md-9">
-          <p>
-            <b>
+
+<div class="container" id="presentations">
+
+  <section class="col-md-8 col-lg-12">
+     <div class="row " style="margin-right:2%; margin-left: 2%">
+             
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
               
-                <a href="http://figshare.com/articles/microRNAs_in_Arabidopsis_discovery_functions_amp_implication_in_the_control_of_flowering_time_/1297309">
-                  microRNAs in Arabidopsis : discovery, functions & implication in the control of flowering time.
-                </a>
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_external.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">An innovative type of review - an interactive database of flowering-time gene networks in Arabidopsis thaliana</small>
+                    <small style="color:black;font-weight: bold;"> [2016].</small> <br>
+                    <small>Bouché F.</small> <br>
+                    <small style="color:black;">  External Diffusion</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Blog post</button>
+                        <a class="btn btn-default btn-xs" href="http://www.externaldiffusion.com/an-innovative-type-of-review-an-interactive-database-of-flowering-time-gene-networks-in-arabidopsis-thaliana-by-frederic-bouche-university-of-liege/" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
               
-            </b>
-            <small>
-              April 2014
-            </small>
-            <br>
-            Phytosystems Day, Liège, Belgium
-          </p>
-        </div>
-      </div>
-    
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_aspb.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Communicating Effectively with Graphics</small>
+                    <small style="color:black;font-weight: bold;"> [2016].</small> <br>
+                    <small>Bouché F.</small> <br>
+                    <small style="color:black;">  American Society of Plant Biology Website</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Blog post</button>
+                        <a class="btn btn-default btn-xs" href="http://blog.aspb.org/2016/11/06/communicating-effectively-with-graphics/" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_thesis.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Integrating roots into a whole-plant map of flowering-time gene networks in Arabidopsis thaliana</small>
+                    <small style="color:black;font-weight: bold;"> [2015].</small> <br>
+                    <small>Bouché F.</small> <br>
+                    <small style="color:black;">  </small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Poster</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/e3e921383156cca25ffc" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_florid_poster.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Genetic Control of Flowering Time in Arabidopsis - an Interactive Database</small>
+                    <small style="color:black;font-weight: bold;"> [2015].</small> <br>
+                    <small>Bouché F., Lobet G., Tocquin P., & Périlleux C.</small> <br>
+                    <small style="color:black;">  Plant Organ Growth Symposium 2015, Ghent [Belgium]</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Poster</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/d515053a1342c431e6f3" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_microrna.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">microRNAs in Arabidopsis - discovery, functions & implication in the control of flowering time</small>
+                    <small style="color:black;font-weight: bold;"> [2014].</small> <br>
+                    <small>Bouché F.</small> <br>
+                    <small style="color:black;">  Phytosystems Day, Liège, Belgium</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Presentation</button>
+                        <a class="btn btn-default btn-xs" href="http://figshare.com/articles/microRNAs_in_Arabidopsis_discovery_functions_amp_implication_in_the_control_of_flowering_time_/1297309" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_award.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Best Plant Biotechnology poster at the BioLiège Bioforum</small>
+                    <small style="color:black;font-weight: bold;"> [2014].</small> <br>
+                    <small>Bouché, F.</small> <br>
+                    <small style="color:black;">  Prize awarded for the poster “Flowering Goes Underground”.</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Award</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/a7dd943431799d9267a4" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_underground.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Flowering Goes Underground</small>
+                    <small style="color:black;font-weight: bold;"> [2014].</small> <br>
+                    <small>Bouché F., Lobet G., D’Aloia M., Detry N., Tocquin P., & Périlleux C.</small> <br>
+                    <small style="color:black;">  The Bioforum 2014 of BioLiège, Liège [Belgium]</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Poster</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/c0850b796e01a95bf0b6" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_hidden.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">The hidden half of flowering</small>
+                    <small style="color:black;font-weight: bold;"> [2013].</small> <br>
+                    <small>Bouché F., Mistiaen K., D’Aloia M., Detry N., Tocquin P., & Périlleux C.</small> <br>
+                    <small style="color:black;">  Workshop on Molecular Mechanisms controlling flower development, Giens [France]</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Poster</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/955c87a2c1006bd2bd7d" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_medium.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">Molecular analysis of root medium impact on Arabidopsis thaliana development</small>
+                    <small style="color:black;font-weight: bold;"> [2013].</small> <br>
+                    <small>Bouché F., André J., Tocquin P., & Périlleux C.</small> <br>
+                    <small style="color:black;">  The Bioforum 2013 of BioLiège, Liège [Belgium]</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Poster</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/62ad69a3c129664a6f57" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+            <div class="li">
+            
+              <!--- ==== Start of one article  -->
+              
+
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
+             
+            
+              <br>
+
+              <!-------- TAGS -------->
+
+
+
+               <p> <img src="/fredericbouche.github.io/img/articles_images/Images_bap.png" class="img-responsive img-thumbnail" style="width:100%;display: block;margin: 0 auto;"></p> 
+                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">A cytokinin route to flowering in Arabidopsis.</small>
+                    <small style="color:black;font-weight: bold;"> [2011].</small> <br>
+                    <small>Bouché F., André J., D’Aloia M., Bonhomme D., & Périlleux C.</small> <br>
+                    <small style="color:black;">  Workshop on Molecular Mechanisms controlling flower development, Maratea [Italy]</small>
+                    <br>
+                <!-------- LINKS -------->
+                <div class="btn-group" role="group" aria-label="pub_links">
+                <button type="button" class="btn btn-warning btn-xs" style="">
+                        <i class="fa fa-tag"></i> Poster</button>
+                        <a class="btn btn-default btn-xs" href="https://figshare.com/s/a7dd943431799d9267a4" target="_blank">
+                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        </a>
+                      </p>
+                </div>  
+                
+            </div> 
+              <!--- ==== End of one article  -->
+        
+   
+            
+       </div>
+
+        
+          </div>
+           
+       
   </section>
-  
+</div>
+
 
 
   <!-- ==================== -->
   <!-- MISCELLANEOUS -->
   <!-- ==================== -->
-
-
-<div class="container" id="miscellaneous">
-    <div class="row">
-      <section class="col-md-10">
-
-        <h3>More about me</h3>
-
-<!-------------------------------->
-        <h4> Work </h4>
-
-        
-          <p>
-            
-              <b>
-                
-                <a href="http://www.baef.be/documents/home.xml?lang=en">
-                  Postdoc in Plant Genetics - Flowering-time control of Brachypodium distachyon [BAEF fellow]
-                </a>
-               <small>
-              | Laboratory of Prof. Amasino, Dpt. of Biochemsitry, Univerity of Wisconsin-Madison (WI)
-              </small>
-                
-                <small>
-              | Dec. 2015-present
-              </small>
-
-              
-              </b>
-            
-          </p>
-        
-          <p>
-            
-              <b>
-                
-                <a href="http://www.phytosystems.ulg.ac.be/en/">
-                  Training of 9 students
-                </a>
-               <small>
-              | 3 Master II thesis - 6 Master I students
-              </small>
-                
-                <small>
-              | Laboratory of Plant Physiology, Phytosystems, University of Liège
-              </small>
-
-              
-              </b>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-
-        
-<!-------------------------------->
-        <h4> Education </h4>
-
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-            	<b>
-              	
-                <a href="http://www.frs-fnrs.be/">
-                  Ph.D. in Plant Genetics - Flowering-time control of Arabidopsis thaliana [Aspirant F.R.S.-FNRS]
-                </a>
-               <small>
-              | Laboratory of Plant Physiology, Phytosystems, University of Liège
-              </small>
-                
-                <small>
-              | 2010-2015
-              </small>
-
-              
-            	</b>
-            
-          </p>
-        
-          <p>
-            
-            	<b>
-              	
-                <a href="http://www.facsc.ulg.ac.be/cms/c_1575565/en/master-bbmc">
-                  Master in Biochemsitry, Molecular and Cellular Biology, University of Liège, Belgium
-                </a>
-               <small>
-              | University of Liège, Belgium
-              </small>
-                
-                <small>
-              | 2008-2010
-              </small>
-
-              
-            	</b>
-            
-          </p>
-        
-          <p>
-            
-            	<b>
-              	
-                <a href="https://www.ulg.ac.be/cms/c_3147258/en/profile-and-key-learning-outcomes-bachelor-s-degree-in-biology">
-                  Bachelor in Biological Sciences
-                </a>
-               <small>
-              | University of Liège, Belgium
-              </small>
-                
-                <small>
-              | 2006-2008
-              </small>
-
-              
-            	</b>
-            
-          </p>
-        
-        
-    
-
-
-    
-<!-------------------------------->
-        <h4> Personal </h4>
-
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-            	<b>
-              	
-              <small>
-                Member of the organizing board of the International Comblain Jazz Festival.
-                </small>
-              
-            	</b>
-            	
-            
-          </p>
-        
-          <p>
-            
-            	<b>
-              	
-              <small>
-                Manager of an indoor soccer team.
-                </small>
-              
-            	</b>
-            	
-            
-          </p>
-        
-          <p>
-            
-            	<b>
-              	
-              <small>
-                Music lover, photography enthusiastic.d
-                </small>
-              
-            	</b>
-            	
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-          <p>
-            
-          </p>
-        
-        
-
-      </section>     
+  <div align="center" class="sectiontitle" style="background:#468CC8;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >MORE ABOUT ME</h5>
     </div>
-  </div>
 
 
-
-
-
-
-  <!-- ==================== -->
-  <!-- FOOTER -->
-  <!-- ==================== -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12">          
-          <img src="/fredericbouche.github.io/img/elbowpatched-icon.svg" alt="Elbowpatched"
-               style="float:left;margin-right:5px;width:20px;height:20px;">
-          Powered by 
-          <a href="http://www.elbowpatched.com">
-            Elbowpatched
-          </a>
-        </div>
-      </div>
+<div class="container" id="miscellaneous"></div>
+ <div align="center" class="sectiontitle" style="background:#4A4C60;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >Professionnal background</h5>
     </div>
-  </footer>
+ 
+
+<img src="/fredericbouche.github.io/img/panel_experience_bio.png" style='max-width: 100%;'>
+
+ 
+
+
+ <div align="center" class="sectiontitle" style="background:#666C83;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >When I am not doing Science</h5>
+    </div>
+ 
+
+<img src="/fredericbouche.github.io/img/panel_experience_hobby.png" style='max-width: 100%;'>
+
+
+
+
+ <div align="center" class="sectiontitle" style="background:#8992A3;color:white; padding: 0.5% 0% 0.5% 1%">
+        <h5 style="font-size:25px" >Funding and Support</h5>
+    </div>
+
+
+<img src="/fredericbouche.github.io/img/panel_experience_funding.png" style='max-width: 100%;'>
+
+
+
 
   <!-- ==================== -->
   <!-- JAVASCRIPTS -->
   <!-- ==================== -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('#section-about').waypoint(function (direction) {
-        if (direction === 'down') {
-          $('body').removeClass('intro-screen');
-        } else {
-          $('body').addClass('intro-screen');
-        }
-      });
-    });
-  </script>
+ 
   
     <script>    
     $(function() {
@@ -1186,6 +1348,6 @@ It is threatened by habitat loss.
   
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
-</body>
-</html>
 
+
+</html>

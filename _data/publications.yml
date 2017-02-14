@@ -1,19 +1,57 @@
 -
   type: journal
-  title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
-  authors: Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
-  journal: Currently under review
-  volume: 
-  issue: 
-  year: 2016
+  title:  Winter Memory throughout the Plant Kingdom - Different Paths to Flowering
+  authors: Bouché, F., Woods, DP., & Amasino RM.
+  journal: Plant Physiology
+  volume: 173
+  issue: 1
+  year: 2017
   month: 
-  pdf: 
-  url: http://www.biorxiv.org/content/early/2016/01/08/036244
-  doi: 10.1101/036244
+  pdf: http://www.plantphysiol.org/content/173/1/27.full.pdf+html
+  url: http://www.plantphysiol.org/content/173/1/27.full
+  pubmed: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210730/
+  doi: 10.1104/pp.16.01322
+  image: /img/articles_images/Images_vernalization.png
+  tag: Evolution | vernalization | Flowering 
+  infographics: https://figshare.com/s/5f3d93d79a7a5b4919c5
 
 -
   type: journal
-  title:  FLOR-ID - an interactive database of flowering-time gene networks in Arabidopsis thaliana.
+  title:  Genetic Architecture of Flowering-Time Variation in Brachypodium distachyon
+  authors: Woods, DP., Bednarek, R., Bouché, F., Gordon, SP., Vogel, JP., Garvin DF., & Amasino, RM.  
+  journal: Plant Physiology
+  volume: 173
+  issue: 1
+  year: 2017
+  month: 
+  pdf: http://www.plantphysiol.org/content/173/1/269.full.pdf+html
+  url: http://www.plantphysiol.org/lookup/doi/10.1104/pp.16.01178
+  pubmed: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210718/
+  doi: 10.1104/pp.16.01178
+  image: /img/articles_images/Images_QTL.png
+  tag: Brachypodium | QTL | Flowering 
+  infographics: https://figshare.com/s/8f30113c7b4aea26e9bd
+
+-
+  type: journal
+  title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
+  authors: Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
+  journal: Scientific Reports
+  volume: 29042 
+  issue: 
+  year: 2016
+  month: 
+  pdf: http://www.nature.com/articles/srep29042.pdf
+  url: http://www.nature.com/articles/srep29042
+  pubmed: https://www.ncbi.nlm.nih.gov/pubmed/27352932
+  doi: 10.1038/srep29042
+  image: /img/articles_images/Images_Roots.png
+  tag: Arabidopsis | Roots |  Flowering 
+  infographics: https://figshare.com/s/436a04c044549a04414e
+
+-
+  type: journal
+  title:  FLOR-ID - an interactive database of flowering-time gene networks in Arabidopsis thaliana
   authors: Bouché F., Lobet, G., Tocquin, P., & Périlleux C. & Tocquin P.
   journal: Nucleic Acids Research
   volume: 44 (D1)
@@ -22,19 +60,29 @@
   month: 
   pdf: http://nar.oxfordjournals.org/content/44/D1/D1167.full.pdf+html
   url: http://nar.oxfordjournals.org/content/44/D1/D1167
+  pubmed: http://nar.oxfordjournals.org/content/44/D1/D1167
   doi: 10.1093/nar/gkv1054
+  image: /img/articles_images/Images_florid.png
+  tag: Arabidopsis | flowering | Database
+  infographics: https://figshare.com/s/436a04c044549a04414e
+
 -
   type: journal
-  title:  Extracellular peptidase hunting for improvement of protein production in plant cells and roots.
+  title:  Extracellular peptidase hunting for improvement of protein production in plant cells and roots
   authors: Lallemand J., Bouché F., Desiron C., Stautemans J., de Lemos Esteves F, Périlleux C., & Tocquin P.
   journal: Frontiers in Plant Science
   volume: 6
   issue:
   year: 2015
   month: 
-  #pdf: 
+  pdf: http://journal.frontiersin.org/article/10.3389/fpls.2015.00037/pdf
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2015.00037/abstract
+  pubmed: https://www.ncbi.nlm.nih.gov/pubmed/25705212
   doi: 10.3389/fpls.2015.00037
+  image: /img/articles_images/Images_proteases.png
+  tag: Arabidopsis | Proteases | Data-mining
+  infographics: /img/articles_infographics/Infographics_proteases.png
+
 -
   type: journal
   title:  Heat can erase epigenetic marks of vernalization in Arabidopsis
@@ -46,83 +94,158 @@
   month: 
   pdf: http://www.tandfonline.com/doi/pdf/10.4161/15592324.2014.990799
   url: http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799
+  pubmed: https://www.ncbi.nlm.nih.gov/pubmed/25648822
   doi: 10.4161/15592324.2014.990799
+  image: /img/articles_images/Images_devernalization.png
+  tag: Arabidopsis | Flowering | Devernalization 
+  infographics: /img/articles_infographics/Infographics_devernalization.png
   
 -
   type: journal
-  title:  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses.
+  title:  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses
   authors: Périlleux C., Pieltain A., Jacquemin G., Bouché F., Detry N., D’Aloia M., Thiry L., Aljochim P., Delansnay M., Mathieu A.-S., Lutts S., & Tocquin P.
   journal: The Plant Journal
   volume: 75 
   issue: 3
   year: 2013
   month: August
-  pdf: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
+  pdf: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/epdf
   url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
+  pubmed: https://www.ncbi.nlm.nih.gov/pubmed/23581257
   doi: 10.1111/tpj.12208
-  
+  image: /img/articles_images/Images_root_chicory.png
+  tag: Root chicory | Flowering | Vernalization
+  infographics: /img/articles_infographics/Infographics_root_chicory.png
+ 
 -
-  type: journal2
-  title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF. 
+  type: journal
+  title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF
   authors: D’Aloia M., Bonhomme D., Bouché F., Tamseddak K., Ormenese S., Torti S., Coupland G., & Périlleux C. 
   journal: The plant journal
   volume: 65
   issue: 6
   year: 2011
   month: March
-  #pdf: 
+  pdf: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/epdf
   url: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract
-  doi: 21205031
+  pubmed: https://www.ncbi.nlm.nih.gov/pubmed/21205031
+  doi: 10.1111/j.1365-313X.2011.04482.x
+  image: /img/articles_images/Images_CK.png
+  tag: Arabidopsis | Cytokinins | Flowering
+  infographics: https://figshare.com/s/0eb8c098170c7ea09abf
 
 
 -
   type: Poster
-  title: Genetic Control of Flowering Time in Arabidopsis - an Interactive Database.
+  title: An innovative type of review - an interactive database of flowering-time gene networks in Arabidopsis thaliana 
+  authors: Bouché F.
+  journal: External Diffusion
+  volume:
+  issue:
+  year: 2016 
+  month: 
+  url: http://www.externaldiffusion.com/an-innovative-type-of-review-an-interactive-database-of-flowering-time-gene-networks-in-arabidopsis-thaliana-by-frederic-bouche-university-of-liege/
+  image: /img/articles_images/Images_external.png
+  tag: Blog post
+
+-
+  type: Poster
+  title: Communicating Effectively with Graphics
+  authors: Bouché F.
+  journal: American Society of Plant Biology Website
+  volume:
+  issue:
+  year: 2016  
+  month: 
+  url: http://blog.aspb.org/2016/11/06/communicating-effectively-with-graphics/
+  image: /img/articles_images/Images_aspb.png
+  tag: Blog post
+
+-
+  type: Poster
+  title: Integrating roots into a whole-plant map of flowering-time gene networks in Arabidopsis thaliana
+  authors: Bouché F.
+  volume:
+  issue:
+  year: 2015
+  month: December
+  url: https://figshare.com/s/e3e921383156cca25ffc
+  image: /img/articles_images/Images_thesis.png
+  tag: Poster
+
+-
+  type: Poster
+  title: Genetic Control of Flowering Time in Arabidopsis - an Interactive Database
   authors: Bouché F., Lobet G., Tocquin P., & Périlleux C. 
   journal: Plant Organ Growth Symposium 2015, Ghent [Belgium]
   volume:
   issue:
   year: 2015
   month: March
-  #pdf:
-  #url: 
-
+  url: https://figshare.com/s/d515053a1342c431e6f3
+  image: /img/articles_images/Images_florid_poster.png
+  tag: Poster
 
 -
   type: Poster
-  title: Flowering Goes Underground.
+  title: microRNAs in Arabidopsis - discovery, functions & implication in the control of flowering time
+  authors: Bouché F.
+  journal: Phytosystems Day, Liège, Belgium
+  volume:
+  issue:
+  year: 2014 
+  month: 
+  url: http://figshare.com/articles/microRNAs_in_Arabidopsis_discovery_functions_amp_implication_in_the_control_of_flowering_time_/1297309
+  image: /img/articles_images/Images_microrna.png
+  tag: Presentation
+
+- 
+  type: Poster
+  title : Best Plant Biotechnology poster at the BioLiège Bioforum
+  authors: Bouché, F.
+  year : 2014
+  journal: Prize awarded for the poster “Flowering Goes Underground”. 
+  month: May 
+  image:  /img/articles_images/Images_award.png
+  url: https://figshare.com/s/a7dd943431799d9267a4
+  tag: Award
+-
+  type: Poster
+  title: Flowering Goes Underground
   authors: Bouché F., Lobet G., D’Aloia M., Detry N., Tocquin P., & Périlleux C. 
   journal: The Bioforum 2014 of BioLiège, Liège [Belgium]
   volume:
   issue:
   year: 2014
   month: May
-  #pdf:
-  #url: 
+  url: https://figshare.com/s/c0850b796e01a95bf0b6
+  image: /img/articles_images/Images_underground.png
+  tag: Poster
  
-
 -
   type: Poster
-  title: The hidden half of flowering.
+  title: The hidden half of flowering
   authors: Bouché F., Mistiaen K., D’Aloia M., Detry N., Tocquin P., & Périlleux C. 
   journal: Workshop on Molecular Mechanisms controlling flower development, Giens [France]
   volume:
   issue:
   year: 2013
   month: June
-  #pdf:
-  #url: 
+  url: https://figshare.com/s/955c87a2c1006bd2bd7d
+  image: /img/articles_images/Images_hidden.png
+  tag: Poster
 -
   type: Poster
-  title: Molecular analysis of root medium impact on Arabidopsis thaliana development.
+  title: Molecular analysis of root medium impact on Arabidopsis thaliana development
   authors: Bouché F., André J., Tocquin P., & Périlleux C. 
   journal: The Bioforum 2013 of BioLiège, Liège [Belgium]
   volume:
   issue:
   year: 2013
   month: May
-  #pdf:
-  #url: 
+  url: https://figshare.com/s/62ad69a3c129664a6f57
+  image: /img/articles_images/Images_medium.png
+  tag: Poster
 -
   type: Poster
   title: A cytokinin route to flowering in Arabidopsis. 
@@ -132,15 +255,13 @@
   issue:
   year: 2011  
   month: June
-  #pdf:
+  url: https://figshare.com/s/a7dd943431799d9267a4
+  image: /img/articles_images/Images_bap.png
+  tag: Poster
   
   
-- 
-    type: Award
-    title : Best Plant Biotechnology poster at the BioLiège Bioforum 2014.
-    year : 2014
-    journal: Prize awarded for the poster “Flowering Goes Underground”. 
-    month: May
+
+
 
 
 
