@@ -81,7 +81,7 @@
   doi: 10.3389/fpls.2015.00037
   image: /img/articles_images/Images_proteases.png
   tag: Arabidopsis | Proteases | Data-mining
-  infographics: /img/articles_infographics/Infographics_proteases.png
+  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_proteases.png
 
 -
   type: journal
@@ -98,7 +98,7 @@
   doi: 10.4161/15592324.2014.990799
   image: /img/articles_images/Images_devernalization.png
   tag: Arabidopsis | Flowering | Devernalization 
-  infographics: /img/articles_infographics/Infographics_devernalization.png
+  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_devernalization.png
   
 -
   type: journal
@@ -115,7 +115,7 @@
   doi: 10.1111/tpj.12208
   image: /img/articles_images/Images_root_chicory.png
   tag: Root chicory | Flowering | Vernalization
-  infographics: /img/articles_infographics/Infographics_root_chicory.png
+  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_root_chicory.png
  
 -
   type: journal
@@ -207,7 +207,7 @@
   journal: Prize awarded for the poster “Flowering Goes Underground”. 
   month: May 
   image:  /img/articles_images/Images_award.png
-  url: https://figshare.com/s/a7dd943431799d9267a4
+  url: https://figshare.com/s/c0850b796e01a95bf0b6
   tag: Award
 -
   type: Poster
