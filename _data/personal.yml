@@ -5,8 +5,13 @@ label: Ph.D. in Plant Genetics | Postdoctoral researcher | UW-Madison
 picture: /img/profile-picture.jpg
 banner:  /img/banner_flo-02.png
 email:  fbouche@wisc.edu
+<<<<<<< HEAD
 bck_wheat: /img/wheat_bckg.jpeg
 phone: +32.4.366.38.37
+=======
+
+phone: +1(608)421-4755
+>>>>>>> origin/master
 
 department: >             
   Department of Biochemistry
@@ -46,7 +51,7 @@ profiles:
   -
     network: Download CV
     username: 
-    url: https://dl.dropboxusercontent.com/u/110671384/CV_FredericBouche.pdf
+    url: http://dl.dropbox.com/u/110671384/CV_FredericBouche_2016_11.pdf
 
   -
     network: PhD Dissertation

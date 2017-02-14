@@ -1,5 +1,6 @@
 -
   type: journal
+<<<<<<< HEAD
   title:  Winter Memory throughout the Plant Kingdom - Different Paths to Flowering
   authors: Bouché, F., Woods, DP., & Amasino RM.
   journal: Plant Physiology
@@ -32,11 +33,36 @@
   tag: Brachypodium | QTL | Flowering 
   infographics: https://figshare.com/s/8f30113c7b4aea26e9bd
 
+=======
+  title: Winter Memory throughout the plant kingdom - different paths to flowering
+  authors: Bouché F., Woods DP., & Amasino RM.
+  journal: Plant Physiology
+  volume: pp.01322.2016
+  issue: 
+  year: 2017
+  month: 
+  pdf: http://www.plantphysiol.org/content/early/2016/10/18/pp.16.01322.full.pdf+html
+  url: http://dx.doi.org/10.1104/pp.16.01322
+  doi: 10.1104/pp.16.01322
+-
+  type: journal
+  title: Genetic Architecture of flowering-time variation in Brachypodium distachyon
+  authors: Woods DP., Bednarek R., Bouché F., Gordon SP., Vogel JP., Garvin DF., & Amasino RM.
+  journal: Plant Physiology
+  volume: pp.01178.2016
+  issue: 
+  year: 2017
+  month: 
+  pdf: http://www.plantphysiol.org/content/early/2016/10/14/pp.16.01178.full.pdf+html
+  url: http://dx.doi.org/10.1104/pp.16.01178
+  doi: 10.1104/pp.16.01178
+>>>>>>> origin/master
 -
   type: journal
   title:  Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
   authors: Bouché F., D’Aloia M., Tocquin P., Lobet G., Detry N., & Périlleux C.
   journal: Scientific Reports
+<<<<<<< HEAD
   volume: 29042 
   issue: 
   year: 2016
@@ -48,6 +74,15 @@
   image: /img/articles_images/Images_Roots.png
   tag: Arabidopsis | Roots |  Flowering 
   infographics: https://figshare.com/s/436a04c044549a04414e
+=======
+  volume: 6
+  issue: 29042
+  year: 2016
+  month: 6
+  pdf: http://www.nature.com/articles/srep29042.pdf
+  url: http://www.nature.com/articles/srep29042
+  doi: 10.1038/srep29042
+>>>>>>> origin/master
 
 -
   type: journal
@@ -57,7 +92,7 @@
   volume: 44 (D1)
   issue: D1167-D1171
   year: 2016
-  month: 
+  month: 1
   pdf: http://nar.oxfordjournals.org/content/44/D1/D1167.full.pdf+html
   url: http://nar.oxfordjournals.org/content/44/D1/D1167
   pubmed: http://nar.oxfordjournals.org/content/44/D1/D1167
@@ -96,10 +131,13 @@
   url: http://www.tandfonline.com/doi/full/10.4161/15592324.2014.990799
   pubmed: https://www.ncbi.nlm.nih.gov/pubmed/25648822
   doi: 10.4161/15592324.2014.990799
+<<<<<<< HEAD
   image: /img/articles_images/Images_devernalization.png
   tag: Arabidopsis | Flowering | Devernalization 
   infographics: /img/articles_infographics/Infographics_devernalization.png
   
+=======
+>>>>>>> origin/master
 -
   type: journal
   title:  A root chicory MADS-box sequence and the Arabidopsis flowering repressor FLC share common features that suggest conserved function in vernalization and devernalization responses
@@ -113,10 +151,13 @@
   url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.12208/abstract;jsessionid=B494127B29E7106BD17D096EE2532010.f02t03
   pubmed: https://www.ncbi.nlm.nih.gov/pubmed/23581257
   doi: 10.1111/tpj.12208
+<<<<<<< HEAD
   image: /img/articles_images/Images_root_chicory.png
   tag: Root chicory | Flowering | Vernalization
   infographics: /img/articles_infographics/Infographics_root_chicory.png
  
+=======
+>>>>>>> origin/master
 -
   type: journal
   title:  Cytokinin promotes flowering of Arabidopsis via transcriptional activation of the FT paralogue TSF
@@ -128,6 +169,7 @@
   month: March
   pdf: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/epdf
   url: http://onlinelibrary.wiley.com/doi/10.1111/j.1365-313X.2011.04482.x/abstract
+<<<<<<< HEAD
   pubmed: https://www.ncbi.nlm.nih.gov/pubmed/21205031
   doi: 10.1111/j.1365-313X.2011.04482.x
   image: /img/articles_images/Images_CK.png
@@ -173,6 +215,9 @@
   image: /img/articles_images/Images_thesis.png
   tag: Poster
 
+=======
+  doi: 21205031
+>>>>>>> origin/master
 -
   type: Poster
   title: Genetic Control of Flowering Time in Arabidopsis - an Interactive Database
@@ -182,6 +227,7 @@
   issue:
   year: 2015
   month: March
+<<<<<<< HEAD
   url: https://figshare.com/s/d515053a1342c431e6f3
   image: /img/articles_images/Images_florid_poster.png
   tag: Poster
@@ -209,6 +255,10 @@
   image:  /img/articles_images/Images_award.png
   url: https://figshare.com/s/a7dd943431799d9267a4
   tag: Award
+=======
+  #pdf:
+  #url: 
+>>>>>>> origin/master
 -
   type: Poster
   title: Flowering Goes Underground
@@ -218,10 +268,15 @@
   issue:
   year: 2014
   month: May
+<<<<<<< HEAD
   url: https://figshare.com/s/c0850b796e01a95bf0b6
   image: /img/articles_images/Images_underground.png
   tag: Poster
  
+=======
+  #pdf:
+  #url: 
+>>>>>>> origin/master
 -
   type: Poster
   title: The hidden half of flowering
@@ -255,6 +310,7 @@
   issue:
   year: 2011  
   month: June
+<<<<<<< HEAD
   url: https://figshare.com/s/a7dd943431799d9267a4
   image: /img/articles_images/Images_bap.png
   tag: Poster
@@ -266,3 +322,12 @@
 
 
   
+=======
+  #pdf:
+- 
+  type: Award
+  title : Best Plant Biotechnology poster at the BioLiège Bioforum 2014.
+  year : 2014
+  journal: Prize awarded for the poster “Flowering Goes Underground”. 
+  month: May
+>>>>>>> origin/master
