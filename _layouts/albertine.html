@@ -119,7 +119,7 @@ $('[rel=popover]').popover({
           </span>
           <p>
           </p>
-          <p style="font-size: 14px" target="_blank">
+          <p style="font-size: 14px" >
           {% for profile in site.data.personal.profiles %}
             
             {% if profile.network == 'Google Scholar' %}
@@ -140,7 +140,7 @@ $('[rel=popover]').popover({
             {% elsif profile.network == 'PhD Dissertation' %}
               <i class="fa fa-arrow-circle-down"></i>
             {% endif %}
-            <a href="{{ profile.url }}">
+            <a href="{{ profile.url }}" target="_blank">
               {{ profile.network }}
             </a>
             {% if forloop.last == false %}
