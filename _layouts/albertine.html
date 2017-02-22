@@ -119,7 +119,7 @@ $('[rel=popover]').popover({
           </span>
           <p>
           </p>
-          <p style="font-size: 14px">
+          <p style="font-size: 14px" target="_blank">
           {% for profile in site.data.personal.profiles %}
             
             {% if profile.network == 'Google Scholar' %}
@@ -129,7 +129,7 @@ $('[rel=popover]').popover({
               <i class="fa fa-flask"></i>
 
             {% elsif profile.network == 'Impact Story' %}
-              <i class="fa fa-share-alt-square" target="_blank"></i>
+              <i class="fa fa-share-alt-square" ></i>
 
             {% elsif profile.network == 'Twitter' %}
               <i class="fa fa-twitter-square"></i>
