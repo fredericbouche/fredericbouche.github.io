@@ -271,7 +271,7 @@ $('[rel=popover]').popover({
                         <i class="fa fa-file-pdf-o"></i> PDF
                       </a><br>
                       <a class="btn btn-default btn-xs" href="{{ publication.infographics }}" target="_blank">
-                        <i class="fa fa-link"></i> Graphical abstract 
+                        <i class="fa fa-file-image-o"></i> Graphical abstract 
                       </a>
                 </div>  
 
@@ -349,8 +349,9 @@ $('[rel=popover]').popover({
                 <div class="btn-group" role="group" aria-label="pub_links">
                 <button type="button" class="btn btn-warning btn-xs" style="">
                         <i class="fa fa-tag"></i> {{ publication.tag }}</button>
+                        <br>
                         <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
-                        <i class="fa fa-link"></i> PDF/Slides/URL
+                        <i class="fa fa-link"></i> Link
                         </a>
 
                         {% if publication.video %}
