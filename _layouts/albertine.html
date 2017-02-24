@@ -245,7 +245,7 @@ $('[rel=popover]').popover({
                 <small>{{ publication.authors }}</small> <br>
                 <!-------- Journal -------->
                         <button type="button" class="btn btn-success btn-xs">
-                          <i class="fa fa-tag"></i> {{ publication.journal }}
+                          <i class="fa fa-file-text"></i> {{ publication.journal }}
                         </button><br>
                <!-------- TAGS -------->
 
@@ -354,8 +354,8 @@ $('[rel=popover]').popover({
                         </a>
 
                         {% if publication.video %}
-                        <a class="btn btn-default btn-xs" style="border-radius: 24px" href="{{ publication.video }}" target="_blank">
-                        <i class="fa fa-link"></i> Video
+                        <a class="btn btn-default btn-xs" style="border-radius: 10px" href="{{ publication.video }}" target="_blank">
+                        <i class="fa fa-play-circle"></i> Video
                         </a>
 
                         {% endif %}
