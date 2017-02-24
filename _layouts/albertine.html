@@ -347,15 +347,15 @@ $('[rel=popover]').popover({
                     
                 <!-------- LINKS -------->
                 <div class="btn-toolbar" role="group" aria-label="pub_links">
-                <button type="button" class="btn btn-warning btn-xs" style="border-radius: 10px">
+                <button type="button" class="btn btn-warning btn-xs" style="border-radius: 5px">
                         <i class="fa fa-tag"></i> {{ publication.tag }}</button>
 
-                        <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank" style="border-radius: 10px">
+                        <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank" style="border-radius: 5px">
                         <i class="fa fa-link"></i> Link
                         </a>
 
                         {% if publication.video %}
-                        <a class="btn btn-default btn-xs" style="border-radius: 10px" href="{{ publication.video }}" target="_blank">
+                        <a class="btn btn-default btn-xs" style="border-radius: 5px" href="{{ publication.video }}" target="_blank">
                         <i class="fa fa-play-circle"></i> Video
                         </a>
 
