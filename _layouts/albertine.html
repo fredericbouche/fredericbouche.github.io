@@ -240,9 +240,7 @@ $('[rel=popover]').popover({
                           <i class="fa fa-tag"></i> {{ publication.journal }}
                         </button><br>
                <!-------- TAGS -------->
-                        <button type="button" class="btn btn-info btn-xs">
-                          <i class="fa fa-tag"></i> {{ publication.tag }}
-                        </button>
+
                             {% if publication.tag %}
                             {% for tag in publication.tag %}
                                <button type="button" class="btn btn-info btn-xs">
