@@ -352,8 +352,8 @@ $('[rel=popover]').popover({
                         <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
                         <i class="fa fa-link"></i> PDF/Slides/URL
                         </a>
-                        {% if publication.tag %}
-                        <i class="fa fa-tag"></i> {{ publication.tag }}</button>
+                        {% if publication.video %}
+                        <i class="fa fa-tag"></i> {{ publication.video }}</button>
                         <a class="btn btn-default btn-xs" href="{{ publication.video }}" target="_blank">
                         <i class="fa fa-link"></i> Video
                         {% endif %}
