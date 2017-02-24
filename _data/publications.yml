@@ -158,7 +158,19 @@
   - Flowering
   infographics: https://figshare.com/s/0eb8c098170c7ea09abf
 
-
+-
+  type: Poster
+  title: Communicating Effectively with Scientific Infographics
+  authors: Bouché F.
+  journal: ASPB [Plantae webinar]
+  volume:
+  issue:
+  year: 2017
+  month: 
+  url: https://doi.org/10.6084/m9.figshare.4683247
+  image: /img/articles_images/Images_Scientific_infographics_slides.png
+  tag: Seminar
+  video: 
 -
   type: Poster
   title: An innovative type of review - an interactive database of flowering-time gene networks in Arabidopsis thaliana 
@@ -222,7 +234,7 @@
   month: 
   url: http://figshare.com/articles/microRNAs_in_Arabidopsis_discovery_functions_amp_implication_in_the_control_of_flowering_time_/1297309
   image: /img/articles_images/Images_microrna.png
-  tag: Presentation
+  tag: Seminar
 
 - 
   type: Poster
