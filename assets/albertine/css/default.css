@@ -331,7 +331,7 @@ color:#fff;
 text-align:center;
 position:relative;
 font-size:17px;
-background:rgba(0,0,0,0.6);
+background:rgba(101,108,130,0.6);
 -webkit-transform:translatey(-100px);
 -ms-transform:translatey(-100px);
 transform:translatey(-100px);
@@ -339,7 +339,6 @@ transform:translatey(-100px);
 transition:all .2s ease-in-out;
 padding:10px;
 }
-
 .hovereffect a.info {
 text-decoration:none;
 display:inline-block;
