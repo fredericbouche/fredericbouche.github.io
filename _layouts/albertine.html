@@ -243,6 +243,15 @@ $('[rel=popover]').popover({
                         <button type="button" class="btn btn-info btn-xs">
                           <i class="fa fa-tag"></i> {{ publication.tag }}
                         </button>
+                            {% if publication.tag %}
+                            {% for tag in publication.tag %}
+                               <button type="button" class="btn btn-info btn-xs">
+                                  <i class="fa fa-tag"></i> {{tag}}
+                               </button>
+                            {% endfor %}
+                            {% endif %}
+
+
                 </p>
                 <!-------- LINKS -------->
                 <div class="btn-group" role="group" aria-label="pub_links">
