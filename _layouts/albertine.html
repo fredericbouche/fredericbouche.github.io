@@ -253,7 +253,7 @@ $('[rel=popover]').popover({
                   		 </a>
                   		 </div>
                <!-------- TAGS -------->
-               				
+
                             {% if publication.tag %}
                             {% for tag in publication.tag %}
                                <button type="button" class="btn btn-info btn-xs">
@@ -276,12 +276,12 @@ $('[rel=popover]').popover({
                         <i class="fa fa-file-pdf-o"></i> PDF
                       </a>
                       
-                </div>  
-                 </p>
+
 
                 <!-------- ALTMETRICS --------> 
   <div data-badge-popover="bottom" data-badge-type="4" data-link-target='_blank' data-doi="{{ publication.doi }}" data-hide-no-mentions="false" class="altmetric-embed"></div>
- 
+ 			</div>  
+                 </p>
    <!--------  <div data-badge-popover="bottom" data-badge-type="bar" data-link-target='_blank' data-doi="{{ publication.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>-------->
       
              
