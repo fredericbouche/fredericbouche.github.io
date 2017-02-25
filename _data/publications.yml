@@ -16,7 +16,7 @@
   - Evolution
   - Vernalization
   - Flowering 
-  infographics: https://figshare.com/s/5f3d93d79a7a5b4919c5
+  infographics: https://doi.org/10.6084/m9.figshare.4649241.v1
 
 -
   type: journal
@@ -36,7 +36,7 @@
   - Brachypodium 
   - QTL
   - Flowering 
-  infographics: https://figshare.com/s/8f30113c7b4aea26e9bd
+  infographics: https://doi.org/10.6084/m9.figshare.4649201.v1
 
 -
   type: journal
@@ -56,7 +56,7 @@
   - Arabidopsis
   - Roots
   - Flowering 
-  infographics: https://figshare.com/s/a48d153886460f485462
+  infographics: https://doi.org/10.6084/m9.figshare.4649259.v1
 
 -
   type: journal
@@ -76,7 +76,7 @@
   - Arabidopsis
   - Flowering
   - Database
-  infographics: https://figshare.com/s/436a04c044549a04414e
+  infographics: https://doi.org/10.6084/m9.figshare.4649269.v1
 
 -
   type: journal
@@ -156,7 +156,7 @@
   - Arabidopsis
   - Cytokinins
   - Flowering
-  infographics: https://figshare.com/s/0eb8c098170c7ea09abf
+  infographics: https://doi.org/10.6084/m9.figshare.4649191.v1
 
 -
   type: Poster
@@ -207,7 +207,7 @@
   issue:
   year: 2015
   month: December
-  url: https://figshare.com/s/e3e921383156cca25ffc
+  url: https://doi.org/10.6084/m9.figshare.4643911.v1
   image: /img/articles_images/Images_thesis.png
   tag: Thesis
 
@@ -220,7 +220,7 @@
   issue:
   year: 2015
   month: March
-  url: https://figshare.com/s/d515053a1342c431e6f3
+  url: https://doi.org/10.6084/m9.figshare.4644826.v1
   image: /img/articles_images/Images_florid_poster.png
   tag: Poster
 
@@ -233,7 +233,7 @@
   issue:
   year: 2014 
   month: 
-  url: http://figshare.com/articles/microRNAs_in_Arabidopsis_discovery_functions_amp_implication_in_the_control_of_flowering_time_/1297309
+  url: https://doi.org/10.6084/m9.figshare.1297309.v4
   image: /img/articles_images/Images_microrna.png
   tag: Seminar
 
@@ -244,8 +244,8 @@
   year : 2014
   journal: Prize awarded for the poster “Flowering Goes Underground”. 
   month: May 
+  url: https://doi.org/10.6084/m9.figshare.4644823.v1
   image:  /img/articles_images/Images_award.png
-  url: https://figshare.com/s/c0850b796e01a95bf0b6
   tag: Award
 -
   type: Poster
@@ -256,7 +256,7 @@
   issue:
   year: 2014
   month: May
-  url: https://figshare.com/s/c0850b796e01a95bf0b6
+  url: https://doi.org/10.6084/m9.figshare.4644823.v1
   image: /img/articles_images/Images_underground.png
   tag: Poster
  
@@ -269,7 +269,7 @@
   issue:
   year: 2013
   month: June
-  url: https://figshare.com/s/955c87a2c1006bd2bd7d
+  url: https://doi.org/10.6084/m9.figshare.4644817.v1
   image: /img/articles_images/Images_hidden.png
   tag: Poster
 -
@@ -281,7 +281,7 @@
   issue:
   year: 2013
   month: May
-  url: https://figshare.com/s/62ad69a3c129664a6f57
+  url: https://doi.org/10.6084/m9.figshare.4644814.v1
   image: /img/articles_images/Images_medium.png
   tag: Poster
 -
@@ -293,7 +293,7 @@
   issue:
   year: 2011  
   month: June
-  url: https://figshare.com/s/a7dd943431799d9267a4
+  url: https://doi.org/10.6084/m9.figshare.4644811.v1
   image: /img/articles_images/Images_bap.png
   tag: Poster
   
