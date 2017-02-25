@@ -347,9 +347,10 @@ $('[rel=popover]').popover({
                     
                 <!-------- LINKS -------->
                 <div class="btn-toolbar" role="group" aria-label="pub_links">
-                <button type="button" class="btn btn-warning btn-xs" style="border-radius: 5px">
-                        <i class="fa fa-tag"></i> {{ publication.tag }}</button>
-
+                		<button type="button" class="btn btn-warning btn-xs" style="border-radius: 5px">
+                        <i class="fa fa-tag"></i> {{ publication.tag }}
+                        </button>
+                        
                         <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank" style="border-radius: 5px">
                         <i class="fa fa-link"></i> Link
                         </a>
@@ -358,12 +359,11 @@ $('[rel=popover]').popover({
                         <a class="btn btn-default btn-xs" style="border-radius: 5px" href="{{ publication.video }}" target="_blank">
                         <i class="fa fa-play-circle"></i> Video
                         </a>
-
                         {% endif %}
 
                       </p>
                 </div>  
-                
+                </div>  
             </div> 
               <!--- ==== End of one article  -->
         
