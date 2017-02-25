@@ -253,7 +253,7 @@ $('[rel=popover]').popover({
                   		 </a>
                   		 </div>
                <!-------- TAGS -------->
-
+               				
                             {% if publication.tag %}
                             {% for tag in publication.tag %}
                                <button type="button" class="btn btn-info btn-xs">
@@ -263,7 +263,7 @@ $('[rel=popover]').popover({
                             {% endif %}
 
 
-                </p>
+               
                 <!-------- LINKS -------->
                 <div class="btn-group" role="group" aria-label="pub_links">
                       <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
@@ -277,7 +277,7 @@ $('[rel=popover]').popover({
                       </a>
                       
                 </div>  
-
+                 </p>
 
                 <!-------- ALTMETRICS --------> 
   <div data-badge-popover="bottom" data-badge-type="4" data-link-target='_blank' data-doi="{{ publication.doi }}" data-hide-no-mentions="false" class="altmetric-embed"></div>
