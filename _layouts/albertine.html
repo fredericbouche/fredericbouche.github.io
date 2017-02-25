@@ -192,10 +192,14 @@ $('[rel=popover]').popover({
                 <p>
                 {{ project.description | markdownify }}
                 </p>
-                <button type="button" class="btn btn-info btn-xs">
-                          <i class="fa fa-tag"></i> {{ project.tag }}
-                </button>
-                      
+              
+                       {% if project.tag %}
+                            {% for tag in project.tag %}
+                               <button type="button" class="btn btn-info btn-xs">
+                                  <i class="fa fa-tag"></i> {{tag}}
+                               </button>
+                         {% endfor %}
+                         {% endif %}
                </div>
     {% endfor %}
   </section>
