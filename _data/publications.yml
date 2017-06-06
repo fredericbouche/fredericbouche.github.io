@@ -1,5 +1,26 @@
 -
   type: journal
+  title:  Establishment of a vernalization requirement in Brachypodium distachyon requires REPRESSOR OF VERNALIZATION1
+  authors: Woods D.P., Ream T.S., Bouché F., Lee J., Thrower N., Wilkerson, C., and Amasino R.M.
+  journal: PNAS
+  volume: 
+  issue: June 5
+  year: 2017
+  month: 
+  pdf: http://www.pnas.org/content/early/2017/05/31/1700536114.full.pdf
+  url: http://www.pnas.org/content/early/2017/05/31/1700536114.full
+  pubmed: 
+  doi: 10.1073/pnas.1700536114
+  image: /img/articles_images/Images_rvr1.png
+  tag: 
+  - Vernalization
+  - Flowering 
+  - Brachypodium
+  - Temperate grasses
+  infographics: hhttps://doi.org/10.6084/m9.figshare.5082601.v1
+
+-
+  type: journal
   title:  Winter Memory throughout the Plant Kingdom - Different Paths to Flowering
   authors: Bouché, F., Woods, DP., & Amasino RM.
   journal: Plant Physiology
