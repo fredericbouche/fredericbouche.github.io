@@ -288,7 +288,7 @@ aside {
 
 .item:nth-child(3n+1) {clear: left;}
 
-.li:nth-child(4n) {clear:left; }
+.li:nth-child(4n+2) {clear:left; }
 
 
 /*************
