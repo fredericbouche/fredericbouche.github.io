@@ -1,3 +1,5 @@
+####  PEER REVIED PAPERS
+
 -
   type: journal
   title:  Establishment of a vernalization requirement in Brachypodium distachyon requires REPRESSOR OF VERNALIZATION1
@@ -179,7 +181,36 @@
   - Flowering
   infographics: https://doi.org/10.6084/m9.figshare.4649191.v1
 
+### PRESENTATIONS IN INTERNATIONAL MEETINGS
+-
+  type: Poster
+  title: Unraveling the molecular mechanisms controlling flowering in the model temperate grass Brachypodium distachyon
+  authors: Bouché F., Woods, DP., and Amasino, RM. 
+  journal: Plant Biology 2017, Honolulu (HI)
+  volume:
+  issue:
+  year: 2017
+  month: June
+  url: https://figshare.com/s/ba208e94fc50e19cbd42
+  image: /img/articles_images/Images_plantbio17.png
+  tag: Talk
+  infographics: 
 
+
+### POSTER
+-
+  type: Poster
+  title: Genetic architecture of flowering-time control in Brachypodium distachyon
+  authors: Bouché F., Woods, DP., and Amasino, RM. 
+  journal: Plant Biology 2017, Honolulu (HI)
+  volume:
+  issue:
+  year: 2017
+  month: June
+  url: https://figshare.com/s/37a5823fc274a45d9159
+  image: /img/articles_images/Images_plantbio2017.png
+  tag: Poster
+  infographics: 
 
 -
   type: Poster
@@ -207,6 +238,7 @@
   month: 
   url: https://doi.org/10.6084/m9.figshare.4683247
   image: /img/articles_images/Images_Scientific_infographics_slides.png
+  tag: Webinar
   video: https://youtu.be/LtwUAvYwBWE
 -
   type: Poster
