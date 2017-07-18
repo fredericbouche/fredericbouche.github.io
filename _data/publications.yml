@@ -84,7 +84,7 @@
 -
   type: journal
   title:  FLOR-ID - an interactive database of flowering-time gene networks in Arabidopsis thaliana
-  authors: Bouché F., Lobet, G., Tocquin, P., & Périlleux C. & Tocquin P.
+  authors: Bouché F.*, Lobet, G.*, Tocquin, P., & Périlleux C. & Tocquin P.
   journal: Nucleic Acids Research
   volume: 44 (D1)
   issue: D1167-D1171
@@ -198,6 +198,21 @@
 
 
 ### POSTER
+
+-
+  type: Poster
+  title: Plant Illustration Repository
+  authors: Sparks E.*, Lobet G.*, York M.*, and Bouché F.*
+  journal: Online Repository
+  volume:
+  issue:
+  year: 2017
+  month: 
+  url: https://figshare.com/authors/Plant_Illustrations/3773596
+  image: /img/articles_images/Images_plant_illustrations.png
+  tag: Illustrations database
+  infographics: 
+
 -
   type: Poster
   title: Genetic architecture of flowering-time control in Brachypodium distachyon
