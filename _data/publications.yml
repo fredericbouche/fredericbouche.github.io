@@ -1,4 +1,25 @@
 ####  PEER REVIED PAPERS
+-
+  type: journal
+  title:  An ortholog of CURLY LEAF/ENHANCER OF ZESTE like-1 is required for proper flowering in Brachypodium distachyon
+  authors: Lomax, A., Woods D.P., Dong Y., Bouché F., Rong, Y., Mayer, S.M., Zhong, X., and Amasino R.M.
+  journal: The Plant Journal
+  volume: 
+  issue: January 4
+  year: 2018
+  month: 
+  pdf: http://onlinelibrary.wiley.com/doi/10.1111/tpj.13815/epdf
+  url: http://onlinelibrary.wiley.com/doi/10.1111/tpj.13815/full
+  pubmed: http://onlinelibrary.wiley.com/doi/10.1111/tpj.13815/full
+  doi: 10.1111/tpj.13815
+  image: /img/articles_images/Images_ezl1.png
+  tag: 
+  - Vernalization
+  - Flowering 
+  - Brachypodium
+  - EZL1
+  - CURLY LEAF
+  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_ezl.png
 
 -
   type: journal
