@@ -8,23 +8,18 @@ email:  fbouche@uliege.be
 bck_wheat: /img/wheat_bckg.jpeg
 phone: +32.4.366.38.37
 
-department: >             
-  InBioS-PhytoSYSTEMS
+department: InBioS-PhytoSYSTEMS
   
 
 group: Prof. Périlleux lab
 lab: Plant Physiology
 institution: University of Liège
 
+mailing_address_1: Sart Tilman, Quartier Vallée 1
 
-mailing_address_1: >
-Sart Tilman, Quartier Vallée 1
+mailing_address_2: Chemin de la Vallée, 4, Bât.B22
 
-
-mailing_address_2: >
-Chemin de la Vallée, 4, Bât.B22
-mailing_address_3: >
-B-4000 Liège | Belgium
+mailing_address_3: B-4000 Liège | Belgium
 
 profiles:
   - 
