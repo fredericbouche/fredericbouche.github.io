@@ -286,7 +286,7 @@ aside {
   border-radius: .25em;
 }
 
-.item:nth-child(3n+1) {clear: left;}
+.item:nth-child(4n+2) {clear: left;}
 
 .li:nth-child(4n+2) {clear:left; }
 
