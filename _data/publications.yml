@@ -1,6 +1,28 @@
 ####  PEER REVIED PAPERS
 -
   type: journal
+  title:  A florigen paralog is required for short-day vernalization in a pooid grass
+  authors: Woods D.P., Dong Y., Bouché F., Bednarek R., Ream T., and Amasino R.M.
+  journal: Biorxiv
+  volume: 
+  issue: September 27
+  year: 2018
+  month: 
+  pdf: https://www.biorxiv.org/content/early/2018/09/27/428995.full.pdf+html
+  url: https://www.biorxiv.org/content/early/2018/09/27/428995
+  pubmed: https://www.biorxiv.org/content/early/2018/09/27/428995
+  doi: 10.1101/428995
+  image: /img/articles_images/Images_FTL9.png
+  tag: 
+  - Short days
+  - Vernalization
+  - Flowering 
+  - Brachypodium
+  - FTL9
+  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_FTL9.png
+
+-
+  type: journal
   title:  An ortholog of CURLY LEAF/ENHANCER OF ZESTE like-1 is required for proper flowering in Brachypodium distachyon
   authors: Lomax, A., Woods D.P., Dong Y., Bouché F., Rong, Y., Mayer, S.M., Zhong, X., and Amasino R.M.
   journal: The Plant Journal
