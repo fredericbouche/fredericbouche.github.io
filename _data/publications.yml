@@ -2,16 +2,16 @@
 -
   type: journal
   title:  A florigen paralog is required for short-day vernalization in a pooid grass
-  authors: Woods D.P., Dong Y., Bouché F., Bednarek R., Ream T., and Amasino R.M.
-  journal: Biorxiv
-  volume: 
-  issue: September 27
-  year: 2018
-  month: 
-  pdf: https://www.biorxiv.org/content/early/2018/09/27/428995.full.pdf+html
-  url: https://www.biorxiv.org/content/early/2018/09/27/428995
-  pubmed: https://www.biorxiv.org/content/early/2018/09/27/428995
-  doi: 10.1101/428995
+  authors: Woods D.P., Dong Y., Bouché F., Bednarek R., Rowe, M., Ream T., and Amasino R.M.
+  journal: eLIFE
+  volume: 8
+  issue: e42153  
+  year: 2019
+  month: January
+  pdf: https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNDIxNTMvZWxpZmUtNDIxNTMtdjEucGRm/elife-42153-v1.pdf?_hash=8j%2FU6ZYQ1e%2FFhraBO3RCKMAk8zhGxu4DO50eh2TS6cU%3D
+  url: https://doi.org/10.7554/eLife.42153.001
+  pubmed: https://www.ncbi.nlm.nih.gov/m/pubmed/30618375/
+  doi: 10.7554/eLife.42153
   image: /img/articles_images/Images_FTL9.png
   tag: 
   - Short days
@@ -19,7 +19,8 @@
   - Flowering 
   - Brachypodium
   - FTL9
-  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_FTL9.png
+  - Temperate grasses
+  infographics: https://doi.org/10.6084/m9.figshare.7613462.v1
 
 -
   type: journal
