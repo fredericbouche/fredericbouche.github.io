@@ -1,4 +1,28 @@
 ####  PEER REVIED PAPERS
+
+-
+  type: journal
+  title:  Turning Meristems into Fortresses
+  authors: Périlleux C., Bouché F., Randoux M., and Orman-Ligeza, B.
+  journal: Trends in Plant Science
+  volume: TRPLSC 1783
+  issue:   
+  year: 2019
+  month: January
+  pdf: https://www.cell.com/action/showPdf?pii=S1360-1385%2819%2930031-7
+  url: https://doi.org/10.1016/j.tplants.2019.02.004
+  pubmed: https://doi.org/10.1016/j.tplants.2019.02.004
+  doi: 10.1016/j.tplants.2019.02.004
+  image: /img/articles_images/Images_TFL1.png
+  tag: 
+  - TFL1
+  - Plant architecture
+  - Life cycles
+  - Flowering
+  - Branching
+  - Development
+  infographics: https://doi.org/10.6084/m9.figshare.7824785.v1
+
 -
   type: journal
   title:  A florigen paralog is required for short-day vernalization in a pooid grass
