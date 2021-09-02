@@ -286,8 +286,10 @@ aside {
 }
 
 .item:nth-child(3n+1) {clear: left;}
+.item2:nth-child(3n+1) {clear: left;}
 
-.li:nth-child(4n+3) {clear:both; }
+
+.li:nth-child(4n+1) {clear:both; }
 
 
 
