@@ -2,6 +2,27 @@
 
 -
   type: journal
+  title: Mutations in the predicted DNA polymerase subunit POLD3 result in more rapid flowering of Brachypodium distachyon
+  authors: Woods D.P, Dong Y., Bouché F., Mayer K., Varner L.,  Ream T.S., Thrower N., Wilkerson C., Cartwright A., Sibout R., Laudencia-Chingcuanco D., Vogel J., and Amasino R.M.
+  journal: New Phytologist
+  volume: 227
+  issue:   
+  year: 2020
+  month: February
+  pdf: https://nph.onlinelibrary.wiley.com/doi/epdf/10.1111/nph.16546
+  url: https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.16546
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/32173866/
+  doi: doi.org/10.1111/nph.16546
+  image: /img/articles_images/Images_pold3.png
+  tag: 
+  - Brachypodium
+  - Flowering
+  - POLD3
+  - Temperate grasses
+  infographics: http://fredericbouche.github.io/img/articles_infographics/Infographics_ezl.png
+
+-
+  type: journal
   title:  Turning Meristems into Fortresses
   authors: Périlleux C., Bouché F., Randoux M., and Orman-Ligeza, B.
   journal: Trends in Plant Science
@@ -38,10 +59,10 @@
   doi: 10.7554/eLife.42153
   image: /img/articles_images/Images_FTL9.png
   tag: 
+  - Brachypodium
   - Short days
   - Vernalization
   - Flowering 
-  - Brachypodium
   - FTL9
   - Temperate grasses
   infographics: https://doi.org/10.6084/m9.figshare.7613462.v1
