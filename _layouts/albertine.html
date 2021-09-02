@@ -315,11 +315,10 @@ $('[rel=popover]').popover({
   <section class="col-md-8 col-lg-12">
      <div class="row " style="margin-right:2%; margin-left: 2%">
              {% for publication in site.data.publications %}
-            
-            {% case publication.type %}
+               <div class="item2">
 
-              {% when 'Poster' %}
-                     <div class="item2">
+            {% case publication.type %}
+            {% when 'Poster' %}
 
               <!--- ==== Start of one poste.Rpresentation  -->
 
@@ -375,7 +374,6 @@ $('[rel=popover]').popover({
         
    
             {% endcase %}
-       </div>
 
         {% endfor %}
           </div>
