@@ -311,46 +311,34 @@ $('[rel=popover]').popover({
 
 
 <div class="container" id="presentations">
-
   <section class="col-md-8 col-lg-12">
-     <div class="row " style="margin-right:2%; margin-left: 2%">
+    <div class="row " style="margin-right:2%; margin-left: 2%">
              {% for publication in site.data.publications %}
-               <div class="item2">
-
+      <div class="item2">
             {% case publication.type %}
             {% when 'Poster' %}
-
               <!--- ==== Start of one poste.Rpresentation  -->
-
         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" style="overflow: hidden">
-             
-            
-             
-
-              <!-------- TAGS -------->
-
-
-
-               <p>
-               <div>
-                 <div class="hovereffect">
+            <!-------- TAGS -------->
+             <p>
+             <div>
+                <div class="hovereffect">
         	  		<img class="img-responsive" src="{{ site.baseurl }}{{ publication.image }}" alt="" style="width:100%;display: block;margin: 0 auto;  border:1px solid #8892A2">
-       			    <div class="overlay">
+       			      <div class="overlay">
           				 <h2>View it</h2>
                     <a class="info" href="{{ publication.url }}" target="_blank">Link</a>
                 	</div>
                 </div>
-                </div>
+              </div>
                </p> 
 
-
-                  <p style="text-align: justify"> <small style="color:black;font-weight: bold;">{{ publication.title }}</small>
+               <p style="text-align: justify"> <small style="color:black;font-weight: bold;">{{ publication.title }}</small>
                     <small style="color:black;font-weight: bold;"> [{{ publication.year }}].</small> <br>
                     <small>{{ publication.authors }}</small> <br>
                     <small style="color:black;">  {{ publication.journal }}</small>
                     
-                <!-------- LINKS -------->
-                <div class="btn-toolbar" role="group" aria-label="pub_links" style="margin-top: -15px">
+                  <!-------- LINKS -------->
+                    <div class="btn-toolbar" role="group" aria-label="pub_links" style="margin-top: -15px">
                 		<button type="button" class="btn btn-warning btn-xs" style="border-radius: 5px">
                         <i class="fa fa-info-circle"></i> {{ publication.tag }}
                         </button>
@@ -364,9 +352,9 @@ $('[rel=popover]').popover({
                         <i class="fa fa-play-circle"></i> Video
                         </a>
                         {% endif %}
-
-                      </p>
-                </div>  
+                    </div>
+               </p>
+                      
                 
             </div> 
               <!--- ==== End of one article  -->
